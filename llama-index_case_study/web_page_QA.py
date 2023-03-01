@@ -1,7 +1,7 @@
 # Derived from the example at:
 # https://github.com/jerryjliu/gpt_index/blob/main/examples/data_connectors/WebPageDemo.ipynb
 
-# pip install llama-index, html2text, trafilatura
+# pip install llama-index html2text trafilatura
 
 from llama_index import GPTListIndex
 from llama_index import TrafilaturaWebReader
