@@ -39,9 +39,7 @@ def tree_traverse(a_dict):
 
 def get_context_text(entity_name):
     json_data = get_entity_info(entity_name)
-    pprint(json_data)
-    pprint(tree_traverse(json_data))
+    return ' '.join(tree_traverse(json_data))
 
 if __name__ == "__main__":
-    #pprint(get_entity_info("Mark Louis Watson"))
     get_context_text("Bill Clinton")

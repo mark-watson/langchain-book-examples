@@ -3,11 +3,13 @@
 
 # pip install llama-index html2text trafilatura
 
-from llama_index import GPTListIndex
+from pprint import pprint
+from llama_index import GPTListIndex, Document
 from llama_index import TrafilaturaWebReader
 
 def query_website(url_list, *questions):
     documents = TrafilaturaWebReader().load_data(url_list)
+    print("documents:"); pprint(documents)
     index = GPTListIndex(documents)
     for question in questions:
         print(f"\n== QUESTION: {question}\n")
