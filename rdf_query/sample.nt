@@ -1,14 +1,14 @@
 <http://dbpedia.org/resource/Argentina> <http://www.w3.org/2000/01/rdf-schema#label> "Argentina"@en .
-<http://dbpedia.org/resource/Almada> <http://www.w3.org/2000/01/rdf-schema#label> "Almada"@en .
-<http://dbpedia.org/resource/Allen,_Río_Negro> <http://www.w3.org/2000/01/rdf-schema#label> "Allen, Río Negro"@en .
-<http://dbpedia.org/resource/Almeirim> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
-<http://dbpedia.org/resource/Almeirim> <http://www.w3.org/2000/01/rdf-schema#label> "Almeirim"@en .
-<http://dbpedia.org/resource/Alta_Gracia> <http://www.w3.org/2000/01/rdf-schema#label> "Alta Gracia"@en .
-<http://dbpedia.org/resource/Benin> <http://www.w3.org/2000/01/rdf-schema#label> "Benin"@en .
-<http://dbpedia.org/resource/Allada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Benin> .
-<http://dbpedia.org/resource/Allada> <http://www.w3.org/2000/01/rdf-schema#label> "Allada"@en .
-<http://dbpedia.org/resource/Allen,_Río_Negro> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
 <http://dbpedia.org/resource/Portugal> <http://www.w3.org/2000/01/rdf-schema#label> "Portugal"@en .
 <http://dbpedia.org/resource/Almada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
+<http://dbpedia.org/resource/Almeirim> <http://www.w3.org/2000/01/rdf-schema#label> "Almeirim"@en .
+<http://dbpedia.org/resource/Allen,_Río_Negro> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Almeirim> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
+<http://dbpedia.org/resource/Allada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Benin> .
+<http://dbpedia.org/resource/Allada> <http://www.w3.org/2000/01/rdf-schema#label> "Allada"@en .
+<http://dbpedia.org/resource/Almada> <http://www.w3.org/2000/01/rdf-schema#label> "Almada"@en .
+<http://dbpedia.org/resource/Allen,_Río_Negro> <http://www.w3.org/2000/01/rdf-schema#label> "Allen, Río Negro"@en .
+<http://dbpedia.org/resource/Benin> <http://www.w3.org/2000/01/rdf-schema#label> "Benin"@en .
 <http://dbpedia.org/resource/Alta_Gracia> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Alta_Gracia> <http://www.w3.org/2000/01/rdf-schema#label> "Alta Gracia"@en .
 <http://dbpedia.org/ontology/country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
