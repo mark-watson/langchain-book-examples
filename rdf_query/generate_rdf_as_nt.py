@@ -10,19 +10,17 @@ sparql.setQuery("""
     CONSTRUCT {
         ?city dbpedia-owl:country ?country .
         ?city rdfs:label ?citylabel .
-        ?city dbpedia-owl:populationTotal ?pop .
         ?country rdfs:label ?countrylabel .
+        <http://dbpedia.org/ontology/country> rdfs:label "country"@en .
     }
     WHERE {
         ?city rdf:type dbpedia-owl:City .
         ?city rdfs:label ?citylabel .
-        ?city dbpedia-owl:populationTotal ?pop .
         ?city dbpedia-owl:country ?country .
         ?country rdfs:label ?countrylabel .
         FILTER (lang(?citylabel) = 'en')
         FILTER (lang(?countrylabel) = 'en')
     }
-    ORDER BY DESC(?pop)
     LIMIT 5
 """)
 sparql.setReturnFormat("rdf")
