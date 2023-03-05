@@ -1,14 +1,122 @@
-<http://dbpedia.org/resource/Argentina> <http://www.w3.org/2000/01/rdf-schema#label> "Argentina"@en .
-<http://dbpedia.org/resource/Portugal> <http://www.w3.org/2000/01/rdf-schema#label> "Portugal"@en .
-<http://dbpedia.org/resource/Almada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
 <http://dbpedia.org/resource/Almeirim> <http://www.w3.org/2000/01/rdf-schema#label> "Almeirim"@en .
-<http://dbpedia.org/resource/Allen,_Río_Negro> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
-<http://dbpedia.org/resource/Almeirim> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
-<http://dbpedia.org/resource/Allada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Benin> .
-<http://dbpedia.org/resource/Allada> <http://www.w3.org/2000/01/rdf-schema#label> "Allada"@en .
-<http://dbpedia.org/resource/Almada> <http://www.w3.org/2000/01/rdf-schema#label> "Almada"@en .
-<http://dbpedia.org/resource/Allen,_Río_Negro> <http://www.w3.org/2000/01/rdf-schema#label> "Allen, Río Negro"@en .
-<http://dbpedia.org/resource/Benin> <http://www.w3.org/2000/01/rdf-schema#label> "Benin"@en .
-<http://dbpedia.org/resource/Alta_Gracia> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
-<http://dbpedia.org/resource/Alta_Gracia> <http://www.w3.org/2000/01/rdf-schema#label> "Alta Gracia"@en .
+<http://dbpedia.org/resource/Amaru,_Rimatara> <http://www.w3.org/2000/01/rdf-schema#label> "Amaru, Rimatara"@en .
+<http://dbpedia.org/resource/Almelo> <http://www.w3.org/2000/01/rdf-schema#label> "Almelo"@en .
+<http://dbpedia.org/resource/Alto_Alegre,_Roraima> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Brazil> .
+<http://dbpedia.org/resource/Netherlands> <http://www.w3.org/2000/01/rdf-schema#label> "Netherlands"@en .
+<http://dbpedia.org/resource/Altamonte_Springs,_Florida> <http://www.w3.org/2000/01/rdf-schema#label> "Altamonte Springs, Florida"@en .
+<http://dbpedia.org/resource/Almaty> <http://www.w3.org/2000/01/rdf-schema#label> "Almaty"@en .
+<http://dbpedia.org/resource/Aluminé_(town)> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Allende,_Coahuila> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Mexico> .
+<http://dbpedia.org/resource/Altar,_Sonora> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Mexico> .
+<http://dbpedia.org/resource/Alpoyeca> <http://www.w3.org/2000/01/rdf-schema#label> "Alpoyeca"@en .
 <http://dbpedia.org/ontology/country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://dbpedia.org/resource/Kazakhstan> <http://www.w3.org/2000/01/rdf-schema#label> "Kazakhstan"@en .
+<http://dbpedia.org/resource/Alverca_do_Ribatejo> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
+<http://dbpedia.org/resource/Almere> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/Almelo> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/Philippines> <http://www.w3.org/2000/01/rdf-schema#label> "Philippines"@en .
+<http://dbpedia.org/resource/Altamura> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/Almada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
+<http://dbpedia.org/resource/Russia> <http://www.w3.org/2000/01/rdf-schema#label> "Russia"@en .
+<http://dbpedia.org/resource/Amador_City,_California> <http://www.w3.org/2000/01/rdf-schema#label> "Amador City, California"@en .
+<http://dbpedia.org/resource/Ukraine> <http://www.w3.org/2000/01/rdf-schema#label> "Ukraine"@en .
+<http://dbpedia.org/resource/Ambae_Island> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Vanuatu> .
+<http://dbpedia.org/resource/Allada> <http://www.w3.org/2000/01/rdf-schema#label> "Allada"@en .
+<http://dbpedia.org/resource/Altona,_Victoria> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Australia> .
+<http://dbpedia.org/resource/Pakistan> <http://www.w3.org/2000/01/rdf-schema#label> "Pakistan"@en .
+<http://dbpedia.org/resource/Portugal> <http://www.w3.org/2000/01/rdf-schema#label> "Portugal"@en .
+<http://dbpedia.org/resource/Alton,_Texas> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Altenburg,_Missouri> <http://www.w3.org/2000/01/rdf-schema#label> "Altenburg, Missouri"@en .
+<http://dbpedia.org/resource/Almeirim,_Pará> <http://www.w3.org/2000/01/rdf-schema#label> "Almeirim, Pará"@en .
+<http://dbpedia.org/resource/Allahabad> <http://www.w3.org/2000/01/rdf-schema#label> "Allahabad"@en .
+<http://dbpedia.org/resource/Almaty> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Kazakhstan> .
+<http://dbpedia.org/resource/India> <http://www.w3.org/2000/01/rdf-schema#label> "India"@en .
+<http://dbpedia.org/resource/Alto_Alegre,_Roraima> <http://www.w3.org/2000/01/rdf-schema#label> "Alto Alegre, Roraima"@en .
+<http://dbpedia.org/resource/Vanuatu> <http://www.w3.org/2000/01/rdf-schema#label> "Vanuatu"@en .
+<http://dbpedia.org/resource/Altheimer,_Arkansas> <http://www.w3.org/2000/01/rdf-schema#label> "Altheimer, Arkansas"@en .
+<http://dbpedia.org/resource/Mexico> <http://www.w3.org/2000/01/rdf-schema#label> "Mexico"@en .
+<http://dbpedia.org/resource/Alta,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Altamura> <http://www.w3.org/2000/01/rdf-schema#label> "Altamura"@en .
+<http://dbpedia.org/resource/Alton,_Texas> <http://www.w3.org/2000/01/rdf-schema#label> "Alton, Texas"@en .
+<http://dbpedia.org/resource/Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Malaysia"@en .
+<http://dbpedia.org/resource/Alta_Gracia> <http://www.w3.org/2000/01/rdf-schema#label> "Alta Gracia"@en .
+<http://dbpedia.org/resource/Alkmaar> <http://www.w3.org/2000/01/rdf-schema#label> "Alkmaar"@en .
+<http://dbpedia.org/resource/Alofi> <http://www.w3.org/2000/01/rdf-schema#label> "Alofi"@en .
+<http://dbpedia.org/resource/Allentown,_Pennsylvania> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Amador_City,_California> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Ambae_Island> <http://www.w3.org/2000/01/rdf-schema#label> "Ambae Island"@en .
+<http://dbpedia.org/resource/Alkmaar> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/Altamira,_Pará> <http://www.w3.org/2000/01/rdf-schema#label> "Altamira, Pará"@en .
+<http://dbpedia.org/resource/Alma,_Wisconsin> <http://www.w3.org/2000/01/rdf-schema#label> "Alma, Wisconsin"@en .
+<http://dbpedia.org/resource/Almería> <http://www.w3.org/2000/01/rdf-schema#label> "Almería"@en .
+<http://dbpedia.org/resource/Spain> <http://www.w3.org/2000/01/rdf-schema#label> "Spain"@en .
+<http://dbpedia.org/resource/Almetyevsk> <http://www.w3.org/2000/01/rdf-schema#label> "Almetyevsk"@en .
+<http://dbpedia.org/resource/Italy> <http://www.w3.org/2000/01/rdf-schema#label> "Italy"@en .
+<http://dbpedia.org/resource/French_Polynesia> <http://www.w3.org/2000/01/rdf-schema#label> "French Polynesia"@en .
+<http://dbpedia.org/resource/Almedinilla> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain> .
+<http://dbpedia.org/resource/Altoona,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alvord,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Alvord, Iowa"@en .
+<http://dbpedia.org/resource/Almedinilla> <http://www.w3.org/2000/01/rdf-schema#label> "Almedinilla"@en .
+<http://dbpedia.org/resource/Alphen_aan_den_Rijn> <http://www.w3.org/2000/01/rdf-schema#label> "Alphen aan den Rijn"@en .
+<http://dbpedia.org/resource/Brazil> <http://www.w3.org/2000/01/rdf-schema#label> "Brazil"@en .
+<http://dbpedia.org/resource/Alofi> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/New_Zealand> .
+<http://dbpedia.org/resource/Allerton,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Australia> <http://www.w3.org/2000/01/rdf-schema#label> "Australia"@en .
+<http://dbpedia.org/resource/Alvord,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/United_States> <http://www.w3.org/2000/01/rdf-schema#label> "United States"@en .
+<http://dbpedia.org/resource/Alor_Setar> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Malaysia> .
+<http://dbpedia.org/resource/Almetyevsk> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Russia> .
+<http://dbpedia.org/resource/Alverca_do_Ribatejo> <http://www.w3.org/2000/01/rdf-schema#label> "Alverca do Ribatejo"@en .
+<http://dbpedia.org/resource/Allen,_Río_Negro> <http://www.w3.org/2000/01/rdf-schema#label> "Allen, Río Negro"@en .
+<http://dbpedia.org/resource/Altamira,_Pará> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Brazil> .
+<http://dbpedia.org/resource/Almazna> <http://www.w3.org/2000/01/rdf-schema#label> "Almazna"@en .
+<http://dbpedia.org/resource/Almería> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain> .
+<http://dbpedia.org/resource/Alphen_aan_den_Rijn> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Netherlands> .
+<http://dbpedia.org/resource/Alton,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alma,_Wisconsin> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Allende,_Coahuila> <http://www.w3.org/2000/01/rdf-schema#label> "Allende, Coahuila"@en .
+<http://dbpedia.org/resource/Argentina> <http://www.w3.org/2000/01/rdf-schema#label> "Argentina"@en .
+<http://dbpedia.org/resource/Alta,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Alta, Iowa"@en .
+<http://dbpedia.org/resource/Altamira,_Tamaulipas> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Mexico> .
+<http://dbpedia.org/resource/Allada> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Benin> .
+<http://dbpedia.org/resource/Almeirim,_Pará> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Brazil> .
+<http://dbpedia.org/resource/New_Zealand> <http://www.w3.org/2000/01/rdf-schema#label> "New Zealand"@en .
+<http://dbpedia.org/resource/Almodóvar_del_Río> <http://www.w3.org/2000/01/rdf-schema#label> "Almodóvar del Río"@en .
+<http://dbpedia.org/resource/Allen,_Río_Negro> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Alor_Setar> <http://www.w3.org/2000/01/rdf-schema#label> "Alor Setar"@en .
+<http://dbpedia.org/resource/Province_of_Huelva> <http://www.w3.org/2000/01/rdf-schema#label> "Province of Huelva"@en .
+<http://dbpedia.org/resource/Allacapan> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Philippines> .
+<http://dbpedia.org/resource/Altoona,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Altoona, Iowa"@en .
+<http://dbpedia.org/resource/Aljaraque> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Province_of_Huelva> .
+<http://dbpedia.org/resource/Almada> <http://www.w3.org/2000/01/rdf-schema#label> "Almada"@en .
+<http://dbpedia.org/resource/Alta_Gracia> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Argentina> .
+<http://dbpedia.org/resource/Allahabad> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/India> .
+<http://dbpedia.org/resource/Allison,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Benin> <http://www.w3.org/2000/01/rdf-schema#label> "Benin"@en .
+<http://dbpedia.org/resource/Alleman,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Alleman, Iowa"@en .
+<http://dbpedia.org/resource/Alleman,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Allentown,_Pennsylvania> <http://www.w3.org/2000/01/rdf-schema#label> "Allentown, Pennsylvania"@en .
+<http://dbpedia.org/resource/Almodóvar_del_Río> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain> .
+<http://dbpedia.org/resource/Altenburg,_Missouri> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alluwali> <http://www.w3.org/2000/01/rdf-schema#label> "Alluwali"@en .
+<http://dbpedia.org/resource/Altamira,_Tamaulipas> <http://www.w3.org/2000/01/rdf-schema#label> "Altamira, Tamaulipas"@en .
+<http://dbpedia.org/resource/Alluwali> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Pakistan> .
+<http://dbpedia.org/resource/Aluminé_(town)> <http://www.w3.org/2000/01/rdf-schema#label> "Aluminé (town)"@en .
+<http://dbpedia.org/resource/Altoona,_Wisconsin> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alpoyeca> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Mexico> .
+<http://dbpedia.org/resource/Almere> <http://www.w3.org/2000/01/rdf-schema#label> "Almere"@en .
+<http://dbpedia.org/resource/Alta_Vista,_Iowa> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Almeirim> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Portugal> .
+<http://dbpedia.org/resource/Alta_Vista,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Alta Vista, Iowa"@en .
+<http://dbpedia.org/resource/Almazna> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Ukraine> .
+<http://dbpedia.org/resource/Altar,_Sonora> <http://www.w3.org/2000/01/rdf-schema#label> "Altar, Sonora"@en .
+<http://dbpedia.org/resource/Aljaraque> <http://www.w3.org/2000/01/rdf-schema#label> "Aljaraque"@en .
+<http://dbpedia.org/resource/Allerton,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Allerton, Iowa"@en .
+<http://dbpedia.org/resource/Altoona,_Wisconsin> <http://www.w3.org/2000/01/rdf-schema#label> "Altoona, Wisconsin"@en .
+<http://dbpedia.org/resource/Allacapan> <http://www.w3.org/2000/01/rdf-schema#label> "Allacapan"@en .
+<http://dbpedia.org/resource/Altona,_Victoria> <http://www.w3.org/2000/01/rdf-schema#label> "Altona, Victoria"@en .
+<http://dbpedia.org/resource/Altamonte_Springs,_Florida> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Alton,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Alton, Iowa"@en .
+<http://dbpedia.org/resource/Amaru,_Rimatara> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/French_Polynesia> .
+<http://dbpedia.org/resource/Allison,_Iowa> <http://www.w3.org/2000/01/rdf-schema#label> "Allison, Iowa"@en .
+<http://dbpedia.org/resource/Altheimer,_Arkansas> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States> .

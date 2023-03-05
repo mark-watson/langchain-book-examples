@@ -21,7 +21,7 @@ sparql.setQuery("""
         FILTER (lang(?citylabel) = 'en')
         FILTER (lang(?countrylabel) = 'en')
     }
-    LIMIT 5
+    LIMIT 50
 """)
 sparql.setReturnFormat("rdf")
 results = sparql.query().convert()
