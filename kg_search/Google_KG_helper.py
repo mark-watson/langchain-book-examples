@@ -1,12 +1,14 @@
 """Example of Python client calling Knowledge Graph Search API."""
 
 import json
+import os
 from urllib.parse import urlencode
 from urllib.request import urlopen
 from pathlib import Path
 from pprint import pprint
 
-api_key = open(str(Path.home()) + "/.google_api_key").read()
+#api_key = open(str(Path.home()) + "/.google_api_key").read()
+api_key = os.environ.get("GOOGLE_API_KEY")
 
 # use Google search API to get information about a named entity:
 
