@@ -1,36 +1,21 @@
-from SPARQLWrapper import SPARQLWrapper
+from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph
 
-sparql = SPARQLWrapper("https://query.wikidata.org/bigdata/namespace/wdq/sparql")
+sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 sparql.setQuery("""
-    PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
-    PREFIX dbpedia: <http://dbpedia.org/resource>
-    PREFIX dbpprop: <http://dbpedia.org/property>
-
-    CONSTRUCT {
-        ?city dbpedia-owl:country ?country .
-        ?city rdfs:label ?citylabel .
-        ?country rdfs:label ?countrylabel .
-        <http://dbpedia.org/ontology/country> rdfs:label "country"@en .
-    }
-    WHERE {
-        ?city rdf:type dbpedia-owl:City .
-        ?city rdfs:label ?citylabel .
-        ?city dbpedia-owl:country ?country .
-        ?country rdfs:label ?countrylabel .
-        FILTER (lang(?citylabel) = 'en')
-        FILTER (lang(?countrylabel) = 'en')
-    }
-    LIMIT 50
+    SELECT * WHERE { wd:Q80041 ?p ?o } limit 5
 """)
-sparql.setReturnFormat("rdf")
-results = sparql.query().convert()
+
+sparql.setReturnFormat(JSON)
+results = sparql.queryAndConvert()
+
+print("results:", results)
 
 g = Graph()
-g.parse(data=results.serialize(format="xml"), format="xml")
+g.parse(data=results, format="JSON")
 
 print("\nresults:\n")
-results = g.serialize(format="nt").encode("utf-8").decode('utf-8')
+# results = g.serialize(format="nt").encode("utf-8").decode('utf-8')
 print(results)
 
 text_file = open("sample.nt", "w")
