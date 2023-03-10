@@ -1,2 +1,2 @@
 install:
-	pip install llama_index langchain openai
+	pip install llama_index langchain openai SPARQLWrapper
