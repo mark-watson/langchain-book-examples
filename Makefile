@@ -1,2 +1,2 @@
 install:
-	pip install llama_index langchain openai SPARQLWrapper rdflib rdflib-jsonld
+	pip install llama_index langchain openai SPARQLWrapper rdflib rdflib-jsonld pydrive
