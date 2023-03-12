@@ -4,4 +4,6 @@ venv
 .idea
 *.pyc
 target
+client_secrets.json
+cl*.json
 
