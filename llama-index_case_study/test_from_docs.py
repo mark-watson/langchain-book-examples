@@ -4,7 +4,7 @@
 #   OPENAI_API_KEY
 
 from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
-documents = SimpleDirectoryReader('data').load_data()
+documents = SimpleDirectoryReader('../data').load_data()
 index = GPTSimpleVectorIndex(documents)
 
 # save to disk
