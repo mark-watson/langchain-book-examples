@@ -1,16 +1,28 @@
-# modified from the from documentation:
-# https://langchain.readthedocs.io/en/latest/modules/indexes/examples/vectorstores.html
-
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.document_loaders import DirectoryLoader
+from langchain import OpenAI, VectorDBQA
 
-text_splitter = CharacterTextSplitter(chunk_size=250, chunk_overlap=10)
+embeddings = OpenAIEmbeddings()
 
-def text_helper(file_path):
-    ret = ''
-    with open(file_path) as f:
-        ret = f.read()
-    return ret
+loader = DirectoryLoader('../data/', glob="**/*.txt")
+documents = loader.load()
+text_splitter = CharacterTextSplitter(chunk_size=2500, chunk_overlap=0)
 
-# TBD: finish example
+texts = text_splitter.split_documents(documents)
+
+docsearch = Chroma.from_documents(texts, embeddings)
+
+qa = VectorDBQA.from_chain_type(llm=OpenAI(),
+                                chain_type="stuff",
+                                vectorstore=docsearch)
+
+def query(q):
+    print(f"Query: {q}")
+    print(f"Answer: {qa.run(q)}")
+
+query("What kinds of equipment are in a chemistry laboratory?")
+query("What is Austrian School of Economics?")
+query("Why do people engage in sports?")
+query("What is the effect of body chemistry on exercise?")

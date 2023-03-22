@@ -1,8 +1,8 @@
 "Example from documentation"
 
-from llama_index import GPTSimpleVectorIndex, download_loader
+from llama_index import GPTSimpleVectorIndex, Document
 
-RDFReader = download_loader("RDFReader")
+doc = Document("sample.nt")
 doc = RDFReader().load_data("sample.nt")
 index = GPTSimpleVectorIndex(doc)
 
