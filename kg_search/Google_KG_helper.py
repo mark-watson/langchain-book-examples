@@ -1,4 +1,4 @@
-"""Example of Python client calling Knowledge Graph Search API."""
+"""Python client calling for Knowledge Graph Search API."""
 
 import json
 import os
