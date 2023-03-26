@@ -1,6 +1,6 @@
 # Kor Library: a Useful Library that I did not include in my book
 
-Note to reader: I was origianlly going to have a book chapter on other (besides LangChain and LlamaIndex) libraries but then decided keep the book more focussed. The material here was originally intended for that chapter, and I include it in case you might find it useful.
+Note to reader: I was origianlly going to have a book chapter on other (besides LangChain and LlamaIndex) libraries but then decided keep the book more focused. The material here was originally intended for that chapter, and I include it in this git repository because you might find it useful.
 
 The Kor library was written by Eugene Yurtsev. Kor is useful for using LLMs to extract structured data from unstructured text. Kor works by generating appropriate prompt text to explain to GPT-3.5 what information to extract and adding in the text to be processed.
 
