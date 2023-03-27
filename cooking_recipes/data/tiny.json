@@ -1,0 +1,19 @@
+    {"name":"Balsamic Mushrooms",
+        "num_served":3,
+        "ingredients":
+            [{"name":"mushrooms",
+                "amount":"12",
+                "units":"medium",
+                "description":"Mushrooms"},
+                {"name":"balsamic vinegar",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Balsamic vinegar"},
+                {"name":"red wine",
+                    "amount":"1/8",
+                    "units":"cup",
+                    "description":"Red wine"}],
+        "directions":
+            ["Place all ingredients in a (preferably nonstick) pan and let sit for a few minutes.",
+                "Then cook covered over medium heat for about three minutes until they are soft.",
+                "Remove the cover and cook until the liquid is almost gone, then serve."]}

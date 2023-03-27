@@ -1,0 +1,558 @@
+[
+    {
+        "name": "Whole Wheat Bread",
+        "num_served":10,
+        "ingredients": [
+            {
+                "name": "water",
+                "amount": "1 1/2",
+                "units": "cup",
+                "description": "Water"
+            },
+            {
+                "name": "vegetable oil",
+                "amount": "1 1/3",
+                "units": "tablespoon",
+                "description": "Vegetable oil"
+            },
+            {
+                "name": "honey",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Honey"
+            },
+            {
+                "name": "salt",
+                "amount": "1/2",
+                "units": "teaspoon",
+                "description": "Salt"
+            },
+            {
+                "name": "whole wheat flour",
+                "amount": "4",
+                "units": "cup",
+                "description": "Whole wheat bread flour"
+            },
+            {
+                "name": "yeast",
+                "amount": "3",
+                "units": "teaspoon",
+                "description": "Yeast"
+            }
+        ],
+        "directions": [
+            "Lightly grease two 9x5 inch loaf pans.",
+            "Blend all ingredients and then place on a large floured surface and knead for 5 or 6 minutes.",
+            "Place in a covered bowl in a warm area and let it rise for about one hour.",
+            "Preheat oven to 375F. Bake for 35 to 40 minutes."]
+    },
+    {
+        "name": "Homemade Salad Dressing",
+        "num_served":16,
+        "ingredients": [
+            {
+                "name": "salt",
+                "amount": "1",
+                "units": "teaspoon",
+                "description": "Salt"
+            },
+            {
+                "name": "black pepper",
+                "amount": "1/4",
+                "units": "teaspoon",
+                "description": "Black Pepper"
+            },
+            {
+                "name": "paprika",
+                "amount": "1/2",
+                "units": "teaspoon",
+                "description": "Paprika"
+            },
+            {
+                "name": "dry mustard",
+                "amount": "1",
+                "units": "pinch",
+                "description": "Dry Mustard"
+            },
+            {
+                "name": "brown sugar",
+                "amount": "1",
+                "units": "teaspoon",
+                "description": "Sugar"
+            },
+            {
+                "name": "olive oil",
+                "amount": "1/2",
+                "units": "cup",
+                "description": "Olive Oil"
+            },
+            {
+                "name": "red wine vinegar",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Wine Vinegar"
+            },
+            {
+                "name": "fresh garlic ",
+                "amount": "2",
+                "units": "clove",
+                "description": "Clove Garlic"
+            }
+        ],
+        "directions": [
+            "Dissolve sugar, salt, pepper, paprika, and dry mustard in olive oil.",
+            "Stir in vinegar. Peel and mince garlic and and add to dressing."]
+    },
+    {
+        "name": "Aioli Sauce",
+        "num_served":8,
+        "ingredients": [
+            {
+                "name": "egg yolks",
+                "amount": "3",
+                "units": "unit",
+                "description": "Egg yolks"
+            },
+            {
+                "name": "fresh garlic",
+                "amount": "4",
+                "units": "clove",
+                "description": "Cloves garlic"
+            },
+            {
+                "name": "lemon juice",
+                "amount": "1",
+                "units": "tablespoon",
+                "description": "Lemon juice"
+            },
+            {
+                "name": "salt",
+                "amount": "1/3",
+                "units": "teaspoon",
+                "description": "Salt"
+            },
+            {
+                "name": "tabasco sauce",
+                "amount": "1/4",
+                "units": "teaspoon",
+                "description": "Tabasco"
+            },
+            {
+                "name": "worcestershire sauce",
+                "amount": "1/4",
+                "units": "teaspoon",
+                "description": "Worcestershire sauce"
+            },
+            {
+                "name": "black pepper",
+                "amount": "1/4",
+                "units": "teaspoon",
+                "description": "Freshly ground black pepper"
+            },
+            {
+                "name": "mayonnaise",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Mayonnaise"
+            },
+            {
+                "name": "olive oil",
+                "amount": "3/4",
+                "units": "cup",
+                "description": "Extra virgin olive oil"
+            },
+            {
+                "name": "water (boiling)",
+                "amount": "3",
+                "units": "tablespoon",
+                "description": "Boiling water"
+            }
+        ],
+        "pictures":
+          [
+            ["aioli_sauce", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepared Aioli Sauce<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(photo by Ralph Sperling public domain)"]
+          ],
+        "directions": ["Blend together the egg yolks, garlic, lemon, salt and pepper in a blender or food processor for about 2 minutes.",
+            "Very slowly add the oil and mayonnaise while continuing to blend the mixture.",
+            "Add the seasonings and mix together. Add the boiling water, stir well, and refrigerate for later use."]
+    },
+    {
+        "name": "Indonesian Barbecue Sauce",
+        "num_served":12,
+        "ingredients": [
+            {
+                "name": "corn syrup",
+                "amount": "1/2",
+                "units": "cup",
+                "description": "Corn syrup (dark)"
+            },
+            {
+                "name": "peanut butter",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Creamy peanut butter"
+            },
+            {
+                "name": "soy sauce",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Soy sauce"
+            },
+            {
+                "name": "vinegar",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Cider vinegar"
+            },
+            {
+                "name": "green onions",
+                "amount": "1/4",
+                "units": "cup",
+                "description": "Sliced green onions"
+            },
+            {
+                "name": "fresh garlic (peeled and minced)",
+                "amount": "4",
+                "units": "clove",
+                "description": "garlic"
+            },
+            {
+                "name": "cloves (ground)",
+                "amount": "1",
+                "units": "teaspoon",
+                "description": "Clove "
+            },
+            {
+                "name": "fresh ginger (peeled and minced)",
+                "amount": "2",
+                "units": "teaspoon",
+                "description": "Ginger"
+            },
+            {
+                "name": "red pepper flakes",
+                "amount": "1",
+                "units": "teaspoon",
+                "description": "Crushed dried red pepper"
+            }
+        ],
+        "directions": ["Mix together all ingredients and let sit for at least one hour before using.",
+            "Refrigerate or freeze any unused barbecue sauce for future use."]
+    },
+    {"name":"Basil Vinaigrette Salad Dressing",
+        "num_served":12,
+        "ingredients":
+            [{"name":"balsamic vinegar",
+                "amount":"1/4",
+                "units":"cup",
+                "description":"balsamic vinegar"},
+                {"name":"dried basil",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"dried basil (or 1/2 tsp fresh)"},
+                {"name":"dried oregano",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Dried oregano (or 1/2 tsp fresh)"},
+                {
+                    "name": "olive oil",
+                    "amount": "1",
+                    "units": "tablespoon",
+                    "description": "Olive Oil"
+                }
+            ],
+        "directions":
+            ["Mix all ingredients in a bowl. Let sit at least 2 or 3 minutes before using on a salad.",
+            "Refrigerate extra dressing for future use."]},
+    {"name":"Black Bean Dip",
+        "num_served":6,
+        "ingredients":
+            [{"name":"black beans (cooked or canned)",
+                "amount":"2",
+                "units":"cup",
+                "description":"Refried Black Beans (see rec.)"},
+                {"name":"sour cream",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Sour cream"},
+                {"name":"cumin",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Ground cumin"},
+                {"name":"salsa",
+                    "amount":"1/2",
+                    "units":"cup",
+                    "description":"Salsa"}],
+        "directions":
+            ["Use either a food processor or a mixing bowl and hand mixer to make this appetizer.",
+                "Blend the black beans and cumin for at least one minute until the mixture is fairly smooth.",
+                "Stir in salsa and sour cream and lightly mix. Serve immediately or store in the refrigerator."]},
+    {"name":"Borscht",
+        "num_served":4,
+        "ingredients":
+            [{"name":"beets (raw and sliced)", "amount":"2", "units":"cup", "description":"Beets"},
+                {"name":"brown onions",
+                    "amount":"1",
+                    "units":"",
+                    "description":"Onion"},
+                {"name":"fresh garlic",
+                    "amount":"2",
+                    "units":"clove",
+                    "description":"Garlic clove"},
+                {"name":"water", "amount":"2", "units":"quart", "description":"Water"},
+                {"name":"salt", "amount":"2", "units":"teaspoon", "description":"Salt"},
+                {"name":"brown sugar",
+                    "amount":"3",
+                    "units":"tablespoon",
+                    "description":"Sugar"},
+                {"name":"lemon juice",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Lemon juice"}],
+        "directions":
+            ["Wash and peel beets and thickly slice so they cook faster. Peel the onion and garlic cloves. Leave the onion and garlic cloves whole since we will be removing them later.",
+                "Mix everything except the lemon juice and sugar in a large covered pot and cook over low heat for one hour.",
+                "Add the sugar and lemon juice.  Cook an additional thirty minutes, remove from heat and let cool. Discard the onion and garlic and use a hand mixer to blend into a cold soup.",
+                "Optional: place a small spoonful of sour cream on top of each serving."]},
+    {"name":"Curried Yogurt Dip",
+        "num_served":6,
+        "ingredients":
+            [{"name":"yogurt (plain)",
+                "amount":"1",
+                "units":"cup",
+                "description":"Plain Yogurt"},
+                {"name":"curry powder",
+                    "amount":"1.5",
+                    "units":"teaspoon",
+                    "description":"Curry powder"},
+                {"name":"sriracha hot chili sauce",
+                    "amount":"1/2",
+                    "units":"teaspoon",
+                    "description":"Hot pepper sauce"},
+                {"name":"lemon juice",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Lemon juice"},
+                {"name":"honey",
+                    "amount":"1/2",
+                    "units":"teaspoon",
+                    "description":"Honey"},
+                {"name":"black pepper",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Black pepper"},
+                {"name":"salt", "amount":"1/4", "units":"teaspoon", "description":"Salt"},
+                {"name":"almonds", "amount":"3", "units":"tablespoon", "description":"almonds"}],
+        "directions":
+            ["Combine ingredients (except almonds!) stirring well.",
+             "Divide into four small serving bowls. Set aside for about 15 minutes at room temperature before serving.",
+                "Then, finely chop almonds are sprinkle on top of the yogurt dip.",
+                "Place the small bowls containing the dip on larger plates with cut up fresh vegetables and/or chips."]},
+    {"name":"Dijon Sour Cream Dip",
+        "num_served":6,
+        "ingredients":
+            [{"name":"sour cream",
+                "amount":"1",
+                "units":"cup",
+                "description":"Sour cream OR Plain yogurt"},
+                {"name":"mayonnaise",
+                    "amount":"1/3",
+                    "units":"cup",
+                    "description":"Mayonnaise"},
+                {"name":"dijon mustard",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Dijon mustard"},
+                {"name":"green onions",
+                    "amount":"1",
+                    "units":"tablespoon",
+                    "description":"Finely-chopped green onion"},
+                {"name":"salt",
+                    "amount":"0.25",
+                    "units":"teaspoon",
+                    "description":"Seasoned salt"},
+                {"name":"black pepper",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Black pepper"}],
+        "directions":
+            ["Mix all ingredients, cover and store in the refrigerator for at least 30 minutes before serving.",
+                "Serve dip into small bowls containing and place on larger plates with cut up fresh vegetables and/or chips."]},
+    {"name":"Dijon Yogurt Dip",
+        "num_served":6,
+        "ingredients":
+            [{"name":"yogurt",
+                "amount":"1",
+                "units":"cup",
+                "description":"Sour cream OR Plain yogurt"},
+                {"name":"mayonnaise",
+                    "amount":"1/3",
+                    "units":"cup",
+                    "description":"Mayonnaise"},
+                {"name":"dijon mustard",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Dijon mustard"},
+                {"name":"green onions",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"Finely-chopped green onion"},
+                {"name":"salt",
+                    "amount":"0.5",
+                    "units":"teaspoon",
+                    "description":"Seasoned salt"},
+                {"name":"black pepper",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Black pepper"}],
+        "directions":
+            ["Mix all ingredients, cover and store in the refrigerator for at least 30 minutes before serving.",
+                "Serve dip into small bowls containing and place on larger plates with cut up fresh vegetables and/or chips."]},
+    {"name":"English Scones",
+        "num_served":6,
+        "ingredients":
+            [{"name":"flour", "amount":"2.5", "units":"cup", "description":"Flour"},
+                {"name":"cream of tartar",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Cream of tartar"},
+                {"name":"baking soda",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Baking soda"},
+                {"name":"brown sugar",
+                    "amount":"3",
+                    "units":"tablespoon",
+                    "description":"Sugar"},
+                {"name":"salt", "amount":"1/2", "units":"teaspoon", "description":
+                    "Salt"},
+                {"name":"butter",
+                    "amount":"1/2",
+                    "units":"cup",
+                    "description":"Butter"},
+                {"name":"milk",
+                    "amount":"1",
+                    "units":"cup",
+                    "description":"Milk"}],
+        "directions":
+            ["Preheat oven to 400F.",
+                "Mix flour, cream of tartar, baking soda, sugar, and salt together. Slowly mix in the butter and when all of the butter is mixed in the mix in the milk.",
+                "Form into three round balls on  floured board and then flatten. Partially cut through each of the three portions to make four pie-like portions.",
+                "Bake for 15 minutes. Cool for a few minutes then serve immediateley."]},
+    {"name":"Tasty Black Bean Dip",
+        "num_served":4,
+        "ingredients":
+            [{"name":"black beans",
+                "amount":"1.5",
+                "units":"cup",
+                "description":"16-0z can black beans"},
+                {"name":"sweet red onions (finely chopped)",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"Chopped red onion"},
+                {"name":"balsamic vinegar",
+                    "amount":"1",
+                    "units":"tablespoon",
+                    "description":"Balsamic vinegar"},
+                {"name":"fresh garlic (peeled and finely chopped)",
+                    "amount":"1",
+                    "units":"",
+                    "description":"Clove garlic"},
+                {
+                    "name": "olive oil",
+                    "amount": "1/2",
+                    "units": "cup",
+                    "description": "Olive Oil"
+                }
+            ],
+        "directions":
+            ["You can use canned black beans (each 12 ounce can is about 1 1/2 cups) or cook dry beans according to package directions and then cool.",
+             "Combine ingredients in the blender or food processor and mix for about 1 minute to either a fine or course consistency depending on your tastes and preferences.",
+             "I like to serve this in small individual bowls place on a larger plate so there is plenty of room on each plate for pita bread, chips, and/or cut up raw vegetables."]},
+    {"name":"Fresh Tomato Sauce",
+        "num_served":4,
+        "ingredients":
+            [{"name":"tomatoes (medium size, diced)",
+                "amount":"12",
+                "units":"",
+                "description":"Tomatoes"},
+                {"name":"brown sugar",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"Sugar"},
+                {"name":"black pepper",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"black pepper"},
+                {"name":"salt", "amount":"1", "units":"teaspoon", "description":"Salt"},
+                {"name":"fresh basil",
+                    "amount":"1",
+                    "units":"cup",
+                    "description":"Fresh basil"}],
+        "directions":
+            ["Place all  ingredients in heavy saucepan or dutch oven and bring to a slow boil. Lower heat  and cook covered for 40 minutes, stirring occasionally.",
+             "I suggest using a small amount for a meal immediately (with cooked pasta) and freezing most of it for future meals.",
+             "This is a great recipe to use up extra tomatoes from your garden or when tomatoes are in season and inexpensive to buy."]},
+    {"name":"Japanese Ginger Salad Dressing",
+        "num_served":4,
+        "ingredients":
+            [{"name":"rice vinegar",
+                "amount":"1",
+                "units":"tablespoon",
+                "description":"Rice vinegar"},
+                {"name":"vegetable oil",
+                    "amount":"2",
+                    "units":"teaspoon",
+                    "description":"Vegetable oil"},
+                {"name":"sesame oil",
+                    "amount":"1.5",
+                    "units":"tablespoon",
+                    "description":"Sesame oil"},
+                {"name":"fresh ginger (grated or very finely chopped)",
+                    "amount":"1",
+                    "units":"tablespoon",
+                    "description":"Grated fresh ginger"},
+                {"name":"soy sauce",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Soy sauce"}],
+        "directions":["Mix all ingredients together and let sit for at least 10 minutes before using.",
+        "Some of the ingredients will settle so make sure you stir well before pouring over salad."]},
+    {"name":"Quick Sweet and Sour Sauce",
+        "num_served":8,
+        "ingredients":
+            [{"name":"white vinegar",
+                "amount":"1",
+                "units":"cup",
+                "description":"White vinegar"},
+                {"name":"brown sugar",
+                    "amount":"2/3",
+                    "units":"cup",
+                    "description":"Sugar"},
+                {"name":"ketchup",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"Ketchup"},
+                {"name":"fresh ginger (peeled and very finely chopped)",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"fresh ginger"},
+                {"name":"salt", "amount":"1/4", "units":"teaspoon", "description":
+                    "Salt"},
+                {"name":"tabasco sauce",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Tabasco sauce"}],
+        "directions":
+            ["Use a medium size pan to combine the vinegar, sugar, ketchup, ginger, salt and tabasco sauce and bring to a boil under high heat.",
+             "Cook until the sauce is reduced to a fairly thick sauce. You don't want the sauce to be runny but you also don't want it to be too thick. Pay attention while cooking the sauce!"]}
+
+
+
+
+
+
+
+
+
+
+]

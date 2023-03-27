@@ -1,0 +1,109 @@
+[
+    {"name":"Honey Chinese Shrimp",
+        "num_served":4,
+        "ingredients":
+            [{"name":"honey",
+                "amount":"1/4",
+                "units":"cup",
+                "description":"Honey"},
+                {"name":"raw shrimp (medium-large)",
+                    "amount":"16",
+                    "units":"",
+                    "description":""},
+                {"name":"red wine",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Red wine"},
+                {"name":"sesame oil",
+                    "amount":"2",
+                    "units":"tablespoon",
+                    "description":"Sesame oil"},
+                {"name":"soy sauce",
+                    "amount":"1.5",
+                    "units":"tablespoon",
+                    "description":"Soy Sauce"},
+                {"name":"worcestershire sauce (optional)",
+                    "amount":"1",
+                    "units":"teaspoon",
+                    "description":"Worcestershire"},
+                {"name":"Sriracha Hot Chili Sauce (optional, or substitute any chili sauce)",
+                    "amount":"2",
+                    "units":"teaspoon",
+                    "description":"Sriracha Hot Chili Sauce"},
+                {"name":"orange juice",
+                    "amount":"1/4",
+                    "units":"cup",
+                    "description":"Orange juice"},
+                {"name":"black pepper",
+                    "amount":"1/4",
+                    "units":"teaspoon",
+                    "description":"Black pepper"}],
+        "directions":
+            ["Mix together all ingredients and marinate in the refrigerator for at least one hour.",
+                "There are two ways to cook this dish:",
+                "1. Barbecue on a grill, occasionally basting with more marinade.",
+                "2. Remove shrimp from marinade sauce and fry in a hot non-stick frying pan.",
+                "This is good served over brown or white rice with a side of steamed vegetables."]},
+
+    {
+        "name": "Chinese Shrimp with Zucchini Squash",
+        "num_served": 2,
+        "ingredients": [
+            {
+                "name": "raw shrimp (or defrosted frozen)",
+                "amount": "14",
+                "units": "medium-large",
+                "description": "medium shrimp"
+            },
+            {
+                "name": "cornstarch",
+                "amount": "1",
+                "units": "tablespoon",
+                "description": "Cornstarch"
+            },
+            {
+                "name": "salt",
+                "amount": "1/2",
+                "units": "teaspoon",
+                "description": "Salt"
+            },
+            {
+                "name": "black pepper",
+                "amount": "1/2",
+                "units": "teaspoon",
+                "description": "Pepper"
+            },
+            {
+                "name": "zucchini squash (chopped)",
+                "amount": "2",
+                "units": "cup",
+                "description": "Zucchini"
+            },
+            {
+                "name": "vegetable oil",
+                "amount": "2",
+                "units": "tablespoon",
+                "description": "Oil"
+            },
+            {
+                "name": "sherry",
+                "amount": "1",
+                "units": "tablespoon",
+                "description": "Sherry"
+            },
+            {
+                "name": "soy sauce",
+                "amount": "1",
+                "units": "tablespoon",
+                "description": "Soy sauce"
+            }
+        ],
+        "directions": ["I vary the proportion of shrimp to Zucchini squash depending on both my tastes and how much shrimp and Zucchini I have on-hand that I want to use up.",
+            "Shell and chop the shrimps into three or four pieces and roll in cornstarch, salt and  pepper - use a small bowl for this.",
+            "Wash the zucchini and coarsely chop.",
+            "Heat the oil in a non-stick pan and fry Zucchini until it is mostly done before adding the shrimp and the sherry.",
+            "When the shrimp are done then mix in the soy sauce and serve immediately.",
+            "Note: I like to eat this dish as-is but you might want to also try serving it with cooked Chinese style noodles or even a small amount of cooked Italian pasta."]
+    }
+
+]

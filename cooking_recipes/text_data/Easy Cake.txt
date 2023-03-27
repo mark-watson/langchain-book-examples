@@ -1,0 +1,14 @@
+Recipe name: Easy Cake
+
+Number of servings: 8
+
+Ingredients:
+  1 cup Butter
+  2 cup Sugar
+  3 cup Flour
+  4  Eggs
+  5 teaspoon Baking powder
+  1 cup Milk
+  1 teaspoon Vanilla extract
+
+Directions: Preheat oven to 350F. Mix together butter, sugar, eggs and vanilla extract in a mixing bowl. Mix in milk and then baking powder. Mix in flour, stirring lightly. Bake for 30  minutes.

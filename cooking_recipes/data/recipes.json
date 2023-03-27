@@ -1,0 +1,686 @@
+[
+    {
+        "items": [
+            ["onions", ["2 ", "onion"], 2.0, "onion"],
+            ["fresh garlic (peeled and finely sliced)", ["1 1/2", "tablespoons"], 0.09, "cup"],
+            ["green pepper", ["1 ", "cup chopped"], 1.0, "cup chopped"],
+            ["tomatoes", ["2 ", "cup chopped"], 2.0, "cup chopped"],
+            ["salt", ["2 ", "teaspoons"], 0.04, "cup"],
+            ["black pepper", ["1/3", "teaspoons"], 0.125, "tbsp"],
+            ["Worcestershire Sauce", ["1 1/5", "tablespoons"], 0.075, "cup"],
+            ["paprika", ["2 ", "teaspoons"], 0.6667, "tbsp"],
+            ["red wine vinegar", ["1/3", "cup"], 0.33333, "cup"],
+            ["water", ["12 ", "fl oz"], 12.0, "fl oz"],
+            ["cucumber", ["1 ", "cup pared chopped"], 1.0, "cup pared chopped"],
+            ["chives", ["1 ", "tbsp chopped"], 1.0, "tbsp chopped"],
+            ["olive oil", ["5 ", "tablespoons"], 5.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 3.0,
+            "name": "Gazpacho",
+            "directions": "Combine the onions, garlic, green peppers and tomatoes. Force through a sieve or puree in a blender. Add the salt, pepper and paprika. Add the olive oil gradually, beating steadily. Add the vinegar and water and stir well. Season to taste. Refrigerate and chill for at least two hours, using a wooden or glass bowl; do not use a metal bowl. Add the cucumber slices before serving.\u003Cbr/\u003E\u003Cbr/\u003EIf desired, slices of toast rubbed with garlic may be served with the Gazpacho. ",
+            "num_served": 4,
+            "id": 1,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["chicken breast", ["1 ", "unit ( yield from 1 lb ready-to-cook chicken)"], 1.0, "unit ( yield from 1 lb ready-to-cook chicken)"],
+            ["olive oil", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["curry powder", ["2 1/4", "teaspoons"], 0.75, "tbsp"],
+            ["cumin seeds", ["2/3", "tbsp whole"], 0.6667, "tbsp whole"],
+            ["yogurt (low fat plain)", ["3/4", "cup ( 8 fl oz)"], 0.75, "cup ( 8 fl oz)"],
+            ["fresh peaches", ["1 1/2", "cup slices"], 1.5, "cup slices"],
+            ["apples (tart with skin)", ["1 ", "cup slices"], 1.0, "cup slices"],
+            ["celery", ["1/2", "cup chopped"], 0.5, "cup chopped"],
+            ["cashew (nuts)", ["1/2 ", "cup"], 0.5, "cup"],
+            ["black pepper", ["1/5", "tbsp ground"], 0.2, "tbsp ground"]
+        ],
+        "recipe": {
+            "rating": 3.0,
+            "name": "Curried Chicken Salad",
+            "directions": "Toast cumin seeds for one or two minutes until they become fragrant and slightly browned. Peel and slice peaches. Bone and skin chicken breasts. Thinly slice celery and green onions. Dice unpeeled tart apples.\u003Cbr/\u003E\u003Cbr/\u003EMix oil, one tsp. of curry powder and one tsp. of cumin. Coat chicken breasts and broil until done. Set aside.\u003Cbr/\u003E\u003Cbr/\u003EIn a medium bowl add peaches, celery, green onions, yogurt, and remaining curry and cumin. Add cut up chicken and mix well.\u003Cbr/\u003E\u003Cbr/\u003EGarnish with peaches and cut up chives.",
+            "num_served": 4,
+            "id": 2,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["Cornish Game Hens", ["4 ", "bird whole"], 4.0, "bird whole"],
+            ["black pepper", ["1 1/2", "teaspoons"], 0.5, "tbsp"],
+            ["dried basil", ["2 ", "tsp leaves"], 2.0, "tsp leaves"],
+            ["rosemary", ["1 ", "tsp leaves"], 1.0, "tsp leaves"],
+            ["salt", ["1 1/2", "teaspoons"], 0.03, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Barbecued Cornish Game Hens",
+            "directions": "Wash the Cornish Game Hens and with a large knife cut them each in two pieces (each piece has one leg, one wing, half a breast, and half a back). Trim the excess skin and fat from the cut edges, wash the hens in cold water and place in a large covered baking dish. Add the salt, pepper, and dried basil to the baking dish and rub the ingredients over the hens. Wash your hands with plenty of soap (because you just handled raw poultry), cover the baking dish, and cook in a 350 degree oven for about 30 minutes.\u003Cbr/\u003E\u003Cbr/\u003EStart the coals on your barbecue. Take the hens from the oven baking dish and place back side down over the hot coals. Cook for about 10 minutes and then turn over and cook for an additional 10 minutes. It might be necessary to move the hens if the burning charcoal flares up (if you did cut away some excess skin and fat this is likely to not happen).\u003Cbr/\u003E\u003Cbr/\u003ECooking time may vary depending on how hot the coals are.\u003Cbr/\u003E\u003Cbr/\u003ECut into the hens with a small sharp knife to make sure that they are done before serving.\u003Cbr/\u003E\u003Cbr/\u003EOptional:we sometimes spread a little teriyaki or barbeque sauce on the hens while cooking on the barbeque. They do also taste great with just the basil, salt, and pepper.\u003Cbr/\u003E\u003Cbr/\u003EServing size:a whole Cornish Game Hen makes a large serving for one person. We usually serve a whole hen per person only if we are just having a salad with the hen. If you have a few side dishes, then half a Cornish Game Hen makes a good serving. ",
+            "num_served": 4,
+            "id": 3,
+            "num_ratings": 1
+        },
+        "pictures":
+         [
+           ["barbequed_cornish_game_hen", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepared Barbecued Cornish Game Hen<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(photo by Davie Boy public domain)"]
+         ]
+    },
+    {
+        "items": [
+            ["chicken (fryer)", ["1 ", "unit ( yield from 1 lb ready-to-cook chicken)"], 1.0, "unit ( yield from 1 lb ready-to-cook chicken)"],
+            ["vegetable oil", ["1/3", "cup"], 0.33333, "cup"],
+            ["water", ["16 ", "fl oz"], 16.0, "fl oz"],
+            ["brown onions (peeled and chopped)", ["1/2", "cup chopped"], 0.5, "cup chopped"],
+            ["green pepper (seeded and chopped in strips)", ["1/2", "cup strips"], 0.5, "cup strips"],
+            ["white rice", ["1 ", "cup"], 1.0, "cup"],
+            ["tumeric", ["1/3", "teaspoons"], 0.1, "tbsp"],
+            ["chicken broth (canned)", ["1 ", "cup"], 1.0, "cup"],
+            ["frozen peas", ["1/2", "(0.5) cup"], 0.5, "(0.5) cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Arroz con Pollo",
+            "directions": "Heat oil in a large skillet over moderately high heat. Add lightly salted chicken pieces and brown on all sides for about 15 minutes. Reduce heat to low. Add 1/3 cup of water and simmer for approximately 10 minutes. Remove chicken and juices from pan and set aside. Return 3 tablespoons of liquid to pan, add onion, rice and green pepper and cook over moderately high head stirring occasionally until mixture is lightly browned. Return de-fatted remaining pan juices to pan with two cups of water, tumeric, 1 tsp. Salt, pepper, broth mix and pimiento.\u003Cbr/\u003E\u003Cbr/\u003EBring rice to a boil, arrange browned chicken on top. Reduce heat to moderately low, cover and cook 10 minutes. Sprinkle peas over chicken, cover and continue cooking 5 to 10 minutes.",
+            "num_served": 4,
+            "id": 5,
+            "num_ratings": 1
+        },
+        "pictures":
+          [
+             ["arroz_con_pollo", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepared Arroz con Pollo<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(photo by Kobako CC BY-SA 2.5)"]
+          ]
+    },
+    {
+        "items": [
+            ["salmon (fillet, skin removed)", ["1", "unit"], 1, "oz boneless"],
+            ["brown rice", ["1 ", "cup"], 1.0, "cup"],
+            ["chicken broth (canned)", ["2 ", "cup"], 2.0, "cup"],
+            ["pine nuts", ["1/3", "cup"], 0.3333, "cup"],
+            ["sesame oil", ["2 ", "tablespoons"], 2.0, "tbsp"],
+            ["broccoli", ["2 ", "cup chopped"], 2.0, "cup chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Salmon Rice",
+            "directions": "In a heavy pot suitable for cooking rice, add the finely chopped onion and about one-third of the chicken broth. Cover and cook over low heat for a few minutes. Add half the sesame oil, the washed brown rice and the pine (pinyon) nuts. Add the water and bring to a boil. As soon as the water comes to a boil, turn down the heat as low as possible, cover tightly and cook for about 20 to 25 minutes or until the mixture dries out and the rice is tender.\u003Cbr/\u003E\u003Cbr/\u003EWash the broccoli, discarding only the very bottom of the stems. Separate the florets into bite size pieces. Note: The broccoli stems are very nutritious, but will need to be cooked slightly longer than the rest of the broccoli. Cut them off just just under the tops and slice thinly or dice into 1/8\" pieces.\u003Cbr/\u003E\u003Cbr/\u003EMix the prepared broccoli stems, the rest of the chicken broth, and the rest of the sesame oil in a heavy skillet. Cook covered over medium heat for about 5 or 6 minutes. Stir in the broccoli florets and cook for about one additional minute. Remove the skin and bones from the salmon and add to the pan. Cook covered for just under 10 minutes over low heat until done, being careful not to overcook.\u003Cbr/\u003E\u003Cbr/\u003EServe the rice on one side of each plate and add salmon mixture from the skillet on the other side. Add a bit of fresh parsley garnish, if available.",
+            "num_served": 4,
+            "id": 6,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["black beans", ["1 ", "cup"], 1.0, "cup"],
+            ["adzuki beans", ["1/2", "cup"], 0.5, "cup"],
+            ["kidney beans", ["1/2", "cup"], 0.5, "cup"],
+            ["pinto beans", ["1/2", "cup"], 0.5, "cup"],
+            ["fresh garlic", ["1 1/5", "tablespoons"], 0.075, "cup"],
+            ["dried oregano", ["2 ", "tsp leaves"], 2.0, "tsp leaves"],
+            ["coriander", ["1/2 ", "tsp leaves"], 0.5, "tsp leaves"],
+            ["marjoram", ["1/2 ", "tsp"], 0.5, "tsp"],
+            ["cumin", ["1/2", "tsp"], 0.5, "tsp"],
+            ["cumin seeds", ["1/2", "tsp whole"], 0.5, "tsp whole"],
+            ["dried bay leaf", ["1/2", "tbsp crumbled"], 0.5, "tbsp crumbled"],
+            ["black pepper", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["brown onions (chopped)", ["1 ", "cup chopped"], 1.0, "cup chopped"],
+            ["chili powder", ["1 1/2", "tablespoons"], 1.5, "tbsp"],
+            ["salt", ["1 ", "teaspoons"], 0.02, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "SouthWest Beans",
+            "directions": "Inspect the beans making sure there are no small stones. Rinse.\u003Cbr/\u003E\u003Cbr/\u003EWash the beans and soak overnight (up to 24 hours is OK). If you do not have time to presoak the beans, boil for 5 minutes and turn off heat for about one hour.\u003Cbr/\u003E\u003Cbr/\u003EDrain and wash beans and then add to a large soup pot with 5 to 6 cups of water. (You might have to add additional water later). Add all ingredients (but no salt, this makes them tough during cooking), cover, and cook at a slow boil for a few hours, adding water as required to keep the beans slightly covered in water.\u003Cbr/\u003E\u003Cbr/\u003E The onion should be finely chopped. Cook covered for another hour. Note: if there is too much water in the beans, you can cook them uncovered until the liquid is reduced.\u003Cbr/\u003E\u003Cbr/\u003EAdd salt before serving. Adding salt earlier makes the beans tough. OPTIONAL: when the beans are cooked, put about 1/3 of the cooked beans in a blender, puree for about 10 seconds, and add them back to the rest of the cooked beans. This optional step gives the beans a tasty creamy consistency.\u003Cbr/\u003E\u003Cbr/\u003EIdea for left over beans: warm and serve with grated cheese and a fried egg on top.",
+            "num_served": 4,
+            "id": 7,
+            "num_ratings": 1
+        },
+      "pictures":
+      [
+        ["southwestbeans1", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beans soaking in water"],
+        ["southwestbeans2", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All ingredients starting to boil"],
+        ["southwestbeans3", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With puréed beens added back in"],
+        ["southwestbeans4", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save some for leftovers"]
+      ]
+
+    },
+    {
+        "items": [
+            ["T-Bone steak", ["1 ", "piece cooked excluding refuse ( yield from 1 lb raw meat with refuse)"], 1.0, "piece cooked excluding refuse ( yield from 1 lb raw meat with refuse)"],
+            ["barbecue sauce", ["1 ", "serving 2 tbsp"], 1.0, "serving 2 tbsp"]
+        ],
+        "recipe": {
+            "rating": 3.0,
+            "name": "Barbecued T-Bone Steak",
+            "directions": "Trim excess loose fat from steak.\u003Cbr/\u003E\u003Cbr/\u003EBarbecue over hot coals and add barbecue sauce to taste.\u003Cbr/\u003E\u003Cbr/\u003ERemember to wash your hands after handling raw meat!",
+            "num_served": 1,
+            "id": 8,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["egg", ["2 ", "large"], 2.0, "large"],
+            ["mayonnaise", ["1 2/3", "tablespoons"], 0.1, "cup"],
+            ["iceberg lettuce", ["1/4", "cup shredded"], 0.25, "cup shredded"],
+            ["bread (toasted)", ["2 ", "slice small"], 2.0, "slice small"],
+            ["bread (toasted sourdough french bread)", ["1/10", "teaspoons"], 0.0007, "cup"],
+            ["black pepper", ["1/3", "teaspoons"], 0.1, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 3.0,
+            "name": "Egg Salad Sandwich",
+            "directions": "Peel boiled eggs, mash, and mix with mayonnaise.\u003Cbr/\u003E\u003Cbr/\u003EAdd salt and pepper to taste.\u003Cbr/\u003E\u003Cbr/\u003EServe with shredded lettuce on toast.",
+            "num_served": 1,
+            "id": 10,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["bread (toasted sourdough french)", ["1 ", "slice small"], 1.0, "slice small"],
+            ["peanut butter", ["2 ", "tablespoons"], 2.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Peanut butter toast",
+            "directions": "",
+            "num_served": 1,
+            "id": 11,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["apples", ["2/3", "cup quartered or chopped"], 0.6666, "cup quartered or chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Apple",
+            "directions": "Eat as is.",
+            "num_served": 1,
+            "id": 12,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["apples", ["2/3", "cup quartered or chopped"], 0.66666, "cup quartered or chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Fresh apple desert",
+            "directions": "Eat as is.",
+            "num_served": 1,
+            "id": 13,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["ear of fresh corn", ["1 ", "ear small ( 5-1/2"], 1.0, "ear small ( 5-1/2"],
+            ["butter (with salt)", ["1 1/3", "teaspoons"], 0.0265, "cup"],
+            ["black pepper", ["1/5", "teaspoons"], 0.0666, "tbsp"],
+            ["salt", ["1/5", "teaspoons"], 0.004, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Corn on the cob with butter, salt, and pepper",
+            "directions": "Boil or steam corn - cook to desired tenderness.\u003Cbr/\u003E\u003Cbr/\u003ESeason with butter, salt, and pepper.",
+            "num_served": 1,
+            "id": 16,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Corn", ["1 ", "ear small ( 5-1/2"], 1.0, "ear small ( 5-1/2"],
+            ["black pepper", ["1/3", "teaspoons"], 0.1, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Corn on the cob with black pepper",
+            "directions": "Boil or steam corn - cook to desired tenderness.\u003Cbr/\u003E\u003Cbr/\u003ETo reduce sodium, do not use butter (usually contains salt) or add extra salt.\u003Cbr/\u003E\u003Cbr/\u003EAdd pepper to taste.",
+            "num_served": 1,
+            "id": 17,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Camembert cheese", ["3 ", "tablespoons"], 0.187, "cup"],
+            ["Nabisco Ritz Crackers", ["1 ", "serving"], 1.0, "serving"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Camembert cheese and crackers",
+            "directions": "Spread softened cheese (let ripen at room temperature for at least 30 minutes before eating) on crackers.",
+            "num_served": 1,
+            "id": 18,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Cheddar Cheese", ["1 ", "cup diced"], 1.0, "cup diced"],
+            ["tortilla chips", ["16 ", "oz"], 16.0, "oz"],
+            ["ear of fresh corn", ["1 ", "cup"], 1.0, "cup"],
+            ["Tabasco Sauce", ["1 ", "tsp"], 1.0, "tsp"],
+            ["brown onions", ["1/4", "cup chopped"], 0.25, "cup chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Cheddar Cheese Nachos",
+            "directions": "Cover tortilla chips with cheese and onions (optional) and diced fresh tomatoes.\u003Cbr/\u003E\u003Cbr/\u003EAdd Tabasco Sauce or red taco sauce, too taste.\u003Cbr/\u003E\u003Cbr/\u003ECook in microwave oven until the cheese has melted. ",
+            "num_served": 4,
+            "id": 23,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["lamb shank", ["4 ", "piece cooked excluding refuse ( yield from 1 lb raw meat with refuse)"], 4.0, "piece cooked excluding refuse ( yield from 1 lb raw meat with refuse)"],
+            ["dried thyme (fresh thyme if you have it)", ["1/3", "tsp"], 0.3333, "tsp"],
+            ["black pepper", ["1 ", "teaspoons"], 0.3333, "tbsp"],
+            ["salt", ["1 ", "teaspoons"], 0.02083, "cup"],
+            ["brown onions", ["3/4", "cup chopped"], 0.75, "cup chopped"],
+            ["olive oil", ["2 ", "tablespoons"], 2.0, "tbsp"],
+            ["fresh garlic", ["2 ", "tablespoons"], 0.125, "cup"],
+            ["dry rosemary (fresh rosemary if you have it)", ["1 1/2", "tablespoons"], 1.5, "tbsp"],
+            ["white wine", ["8 ", "fl oz"], 8.0, "fl oz"],
+            ["saffron", ["1/2", "teaspoons"], 0.152, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Mark's Baked Lamb Shanks",
+            "directions": "Start by cutting off excess fat from the lamb shanks. You will notice clear membrane covering most of the meat; try to remove most of this membrane with a sharp knife - however, do not remove any of the meat, just the membrane.\u003Cbr/\u003E\u003Cbr/\u003ECoarsely chop the onion and garlic. Then add all ingredients to a covered oven baking dish. Depending on the size of the dish, the lamb shanks will probably be about 1/3 covered by liquid. Add enough water to cover about 1/2 to 2/3 of the lamb shanks.\u003Cbr/\u003E\u003Cbr/\u003EPlace the covered baking dish in the refrigerator for a time interval of 1 hour to overnight. If possible during this period, occasionally turn the lamb shanks in the liquid.\u003Cbr/\u003E\u003Cbr/\u003ETurn the oven on and set it to 325 degrees F. It is not really necessary to preheat the oven. Cook the covered lamb shanks for 1 1/2 to 2 hours. Then uncover the lamb shanks and let them cook for an additional 20 to 30 minutes to allow some of the liquid to dry up. You will want some liquid for serving the lamb shanks. You will want to serve the lamb shanks with:\u003Cbr/\u003E\u003Cbr/\u003E    * A large helping of steamed vegetables     * A side dish of a small serving of either noodles,       baked potato, or rice\u003Cbr/\u003E\u003Cbr/\u003EPlace one lamb shank on each plate with the vegetables and other side dish. Then spoon some of the liquid from the baking dish over the lamb shanks. This liquid will contain a fair amount of fat so while you should generously spoon it over the lamb shanks please avoid pouring it over the vegetables and side dish. Some of the liquid will flow on the plate into the vegetables and side dish which is OK and adds flavor.",
+            "num_served": 4,
+            "id": 25,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["brown rice (cooked)", ["2 ", "cup"], 2.0, "cup"],
+            ["soy sauce", ["2 ", "tablespoons"], 2.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Brown rice",
+            "directions": "Cook rice as per directions. If you buy your brown rice in bulk at a health food store (a good idea!) add 1 part rice to 2 parts water and cook in either a rice cooker or a pan with a tightly fitting top - do not lift the lid while rice is cooking.\u003Cbr/\u003E\u003Cbr/\u003EIf you are not on a low sodium diet, add soy sauce to taste.",
+            "num_served": 4,
+            "id": 26,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["white rice (cooked)", ["2 ", "cup"], 2.0, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "White rice",
+            "directions": "Cook rice as per package directions.\u003Cbr/\u003E\u003Cbr/\u003EIf you buy your rice in bulk, cook with 1 part dry rice to 2 parts water. Cook in a tightly covered pan for 20 minutes or use a rice cooker.",
+            "num_served": 4,
+            "id": 27,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["potatoes", ["1 ", "potato large"], 1.0, "potato large"],
+            ["butter", ["1 ", "tablespoons"], 0.0625, "cup"],
+            ["sour cream", ["1 ", "tablespoons"], 0.0625, "cup"],
+            ["salt", ["1/6", "teaspoons"], 0.003, "cup"],
+            ["black pepper", ["1/10", "teaspoons"], 0.02, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Baked potato",
+            "directions": "Wash potatoes and bake in 325 oven for about 90 minutes.\u003Cbr/\u003E\u003Cbr/\u003EServe with salt, pepper, butter, and sour cream.",
+            "num_served": 1,
+            "id": 30,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["redleaf lettuce", ["1/2", "cup shredded"], 0.5, "cup shredded"],
+            ["raw carrot", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["sweet (purple) raw onion", ["1/8", "onion"], 0.125, "onion"],
+            ["pealed raw cucumber", ["1/8", "cup pared chopped"], 0.125, "cup pared chopped"],
+            ["olive oil", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["red wine or balsamic vinegar", ["1 1/10", "tablespoons"], 0.065, "cup"],
+            ["black pepper", ["1/4", "teaspoons"], 0.07, "tbsp"],
+            ["salt", ["1/10", "teaspoons"], 0.002, "cup"]
+        ],
+        "recipe": {
+            "rating": 3.0,
+            "name": "Tossed summer salad",
+            "directions": "Wash lettuce, carrot, onion, and cucumber; cut into bite size pieces.\u003Cbr/\u003E\u003Cbr/\u003EAdd remaining ingredients and mix well.",
+            "num_served": 1,
+            "id": 33,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["egg", ["2 ", "large"], 2.0, "large"],
+            ["bacon", ["2 ", "slice cooked"], 2.0, "slice cooked"],
+            ["bread (1 slice)", ["1 ", "oz"], 1.0, "oz"],
+            ["butter", ["1 ", "teaspoons"], 0.0208, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.5,
+            "name": "Eggs, bacon, and toast with butter",
+            "directions": "Fry eggs in half the butter. Cook bacon and drain.\u003Cbr/\u003E\u003Cbr/\u003EUse remaining butter on toast.",
+            "num_served": 1,
+            "id": 34,
+            "num_ratings": 2
+        }
+    },
+    {
+        "items": [
+            ["bread", ["4 ", "slice small"], 4.0, "slice small"],
+            ["ground cinnamon", ["1/2", "teaspoons"], 0.152, "tbsp"],
+            ["ground nutmeg", ["1/2", "teaspoons"], 0.152, "tbsp"],
+            ["orange (just the peel)", ["1/2", "teaspoons"], 0.152, "tbsp"],
+            ["lemon (just the peel)", ["1/2", "teaspoons"], 0.152, "tbsp"],
+            ["egg yolks", ["1/4", "cup"], 0.25, "cup"],
+            ["maple syrup", ["1/2", "cup"], 0.5, "cup"],
+            ["baking soda", ["1/8", "tsp"], 0.125, "tsp"],
+            ["raisins", ["1/4", "cup packed"], 0.25, "cup packed"],
+            ["low fat milk", ["2 ", "cup"], 2.0, "cup"],
+            ["vanilla extract", ["1 1/2", "teaspoons"], 0.5, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Bread Pudding",
+            "directions": "Cube bread and place in 13x9 inch pan. Combine cinnamon, nutmeg, orange and lemon peels, walnuts and raisins and sprinkle evenly over bread cubes. Beat egg yolks, maple syrup and baking soda. Scald the milk. Stir egg mixture and vanilla into milk and pur over bread mixture. Bake at 350 one hour or until golden.",
+            "num_served": 4,
+            "id": 35,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["flour tortilla", ["2 ", "serving"], 2.0, "serving"],
+            ["Cheddar cheese", ["1/8", "cup diced"], 0.125, "cup diced"],
+            ["black olives", ["4 ", "jumbo"], 4.0, "jumbo"],
+            ["tomato (diced)", ["1/4", "cup"], 0.25, "cup"],
+            ["Olive oil", ["1 ", "tablespoons"], 1.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Cheese quesadilla",
+            "directions": "If you are making two small quesadillas, you can cook them together in a large frying pan, or separately in a small pan. One large tortilla can be substituted for 2 8-inch tortillas.\u003Cbr/\u003E\u003Cbr/\u003EAdd oil to a pan and set heat for medium. Cook one side of the tortillas until the cooked side starts to slightly blacken.\u003Cbr/\u003E\u003Cbr/\u003EThe tomato and large olives should be coarsely chopped.\u003Cbr/\u003E\u003Cbr/\u003ETurn tortillas and add all ingredients, mixed, and being careful to keep ingredients away from the edges of the tortillas. Lower heat slightly, and cook until the cheese melts and the outer side of the tortillas slightly blacken.",
+            "num_served": 1,
+            "id": 36,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Salmon", ["1 ", "fillet"], 1.0, "fillet"],
+            ["green onions (scallions)", ["1 ", "cup chopped"], 1.0, "cup chopped"],
+            ["low fat milk", ["2 ", "cup"], 2.0, "cup"],
+            ["olive oil", ["2 ", "tablespoons"], 2.0, "tbsp"],
+            ["salt", ["1/3", "teaspoons"], 0.0069, "cup"],
+            ["black pepper", ["1/3", "teaspoons"], 0.1, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Salmon and Scallions Soup",
+            "directions": "Wash and chop scallions. Mix scallions with olive oil, salt, and pepper and start to cook over low heat for 1 minute, then add milk and cook under medim heat until the milk has boiled for one minute.\u003Cbr/\u003E\u003Cbr/\u003EWhile the milk is heating, remove the skin from the salmon and cut into small pieces.\u003Cbr/\u003E\u003Cbr/\u003EAdd the salmon to the lightly boiling milk, reduce heat to very low, cover, and cook for 10 minutes.",
+            "num_served": 4,
+            "id": 37,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["canned tuna (in water, not oil), drained", ["1/2", "cup solid or chunks"], 0.5, "cup solid or chunks"],
+            ["frozen corn", ["1/4", "(0.5) cup"], 0.25, "(0.5) cup"],
+            ["frozen peas", ["1/4", "(0.5) cup"], 0.25, "(0.5) cup"],
+            ["dry pasta (any type)", ["1 ", "cup"], 1.0, "cup"],
+            ["brown onions", ["1/3", "cup chopped"], 0.3333, "cup chopped"],
+            ["salt", ["1/4", "teaspoons"], 0.005, "cup"],
+            ["mayonnaise", ["2 ", "tablespoons"], 0.125, "cup"],
+            ["black pepper", ["1/5", "teaspoons"], 0.06667, "tbsp"],
+            ["olive oil", ["1 ", "tablespoons"], 1.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Pasta Salad with Tuna, Corn, and Peas",
+            "directions": "This can be a complete \"one dish meal\":\u003Cbr/\u003E\u003Cbr/\u003ECook pasta according to directions, drain, and cool.\u003Cbr/\u003E\u003Cbr/\u003ECook corn and peas according to package directions, rinse, and cool.\u003Cbr/\u003E\u003Cbr/\u003EFinely chop white onion.\u003Cbr/\u003E\u003Cbr/\u003EMix all ingredients and place in refrigerator for at least 15 minutes to cool.",
+            "num_served": 2,
+            "id": 38,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["cheddar cheese", ["1/4", "cup sliced"], 0.25, "cup sliced"],
+            ["bread (preferably French bread)", ["2 ", "slice small"], 2.0, "slice small"],
+            ["butter", ["1 ", "tablespoons"], 0.0625, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Grilled Cheddar Cheese Sandwich",
+            "directions": "Melt butter in a skillet and brown one side of both pieces of bread.\u003Cbr/\u003E\u003Cbr/\u003ETurn over one slice, add cheese and cover with other slice of bread.\u003Cbr/\u003E\u003Cbr/\u003ETurn after the bottom is browned and serve when the other side is done. ",
+            "num_served": 1,
+            "id": 39,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["elbow macaroni", ["2 ", "cup elbow shaped"], 2.0, "cup elbow shaped"],
+            ["olive oil", ["2 ", "tablespoons"], 2.0, "tbsp"],
+            ["butter", ["1 1/3", "tablespoons"], 0.08, "cup"],
+            ["carrots", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["brown onions", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["mushrooms", ["1/2", "cup pieces or slices"], 0.5, "cup pieces or slices"],
+            ["broccoli", ["1/2", "cup flowerets"], 0.5, "cup flowerets"],
+            ["half-and-half", ["1 ", "cup"], 1.0, "cup"],
+            ["Swiss cheese", ["3/4", "cup diced"], 0.75, "cup diced"],
+            ["egg", ["2 ", "large"], 2.0, "large"],
+            ["salt", ["1 ", "teaspoons"], 0.02, "cup"],
+            ["black pepper", ["1 ", "teaspoons"], 0.333, "tbsp"],
+            ["raw shrimp", ["12 ", "medium"], 12.0, "medium"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Shrimp Macaroni and Cheese",
+            "directions": "\u003Cp\u003ECook the elbow macaroni according to directions on package. Do not overcook. Heat oven to 375 degrees. While the elbow macaroni is cooking finely chop: carrots, onions, and broccoli. Thinly slice the mushrooms. Chop the cheese into small cubes. Cut the shrimp in half, lengthwise. Use half the butter to lightly cook the shrimp in a non-stick pan for two minutes and set aside. Use half the butter to grease a 9 by 13 inch baking pan. In a large bowl, beat the eggs and then add all remaining ingredients, including the cooked elbow macaroni. Mix everything together and pour into the baking dish. Bake covered for 30 minutes. Uncover and cook for another 10 minutes. Remove from oven and cool for 10 minutes before serving.\u003Cp\u003E",
+            "num_served": 4,
+            "id": 50,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["canned soup (any of your favorites)", ["1 ", "serving 1/3 cup"], 1.0, "serving 1/3 cup"],
+            ["Optional: broccoli (raw and chopped)", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["Optional: carrots (raw and chopped)", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["Optional: brussels sprouts (raw and chopped)", ["1/4", "cup"], 0.25, "cup"],
+            ["Optional: celery (raw and chopped)", ["1/4", "cup chopped"], 0.25, "cup chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Canned Soup with Fresh Vegetables",
+            "directions": "\u003Cp\u003EThis is one of my favorite lunches that is easy to prepare, tastes great, and is healthy because of the fresh vegetables. Start by filling a covered sauce pan about 1/2 inch with water and place over medium to high heat. Starting with the 'tougher' vegetables first finely chop the vegetables and add to the water. Cover the sauce pan and cook for about 5 minutes, then add the canned soup and heat just until everything reaches a boil.\u003C/p\u003E",
+            "num_served": 2,
+            "id": 44,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["sweet red onions (brown onions are fine to use also)", ["1/4", "cup chopped"], 0.25, "cup chopped"],
+            ["Olive Oil", ["5 ", "tablespoons"], 5.0, "tbsp"],
+            ["Sriracha Hot Chili Sauce", ["1 1/2", "teaspoons"], 0.5, "tbsp"],
+            ["Optional: white wine", ["4 ", "fl oz"], 4.0, "fl oz"],
+            ["Optional: zucchini squash (raw and chopped)", ["1/2", "cup chopped"], 0.5, "cup chopped"],
+            ["Optional: spinach (raw and chopped)", ["1/2", "cup"], 0.5, "cup"],
+            ["Optional: broccoli (raw and chopped)", ["1/2", "cup chopped"], 0.5, "cup chopped"],
+            ["fresh garlic (finely chopped)", ["1 1/3", "tablespoons"], 0.08, "cup"],
+            ["raw shrimp (peeled. defrost if frozen)", ["1/2", "cup"], 0.5, "cup"],
+            ["brown rice (cooked as per directions; white rice is also OK)", ["1 1/2", "cup"], 1.5, "cup"],
+            ["salt (to taste)", ["3/4", "teaspoons"], 0.015, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Spicy Shrimp with Vegetables and Rice",
+            "directions": "You can experiment with this recipe by adjusting the relative amounts of shrimp and vegetables. For a healthy meal I prefer using relatively few shrimp (slicing them in half lengthwise) and a lot of vegetables. Sometimes I use fewer fresh vegetables and more shrimp (and then leave the shrimp whole).\n\nThe white wine is optional. You can substitute some canned vegetable broth or water.\n\nPut half the olive oil in a heavy frying pan that has a lid (which we will use later). Heat the oil and cook the onion for about a minute before adding the chopped vegetables and then the hot chili sauce.\n\nAfter a few minutes add the finely chopped fresh garlic, give everything a good stir, and cook for another minute before adding the wine (or broth, or water). Stir again, cover the frying pan, reduce heat and slowly cook for another 5 minutes, stirring occasionally. Add the raw shrimp, stir, cover, and cook for another 5 minutes (stirring occasionally to make sure the shrimp get cooked).\n\nIf you use pre-cooked shrimp (not really recommended) then delay adding the defrosted cooked shrimp for a few minutes. You don't want to overcook already cooked shrimp.\n\nUncover the pan and add the cooked rice.  Keeping the heat low, stir the ingredients together and cook for another few minutes. Finally, add the remaining olive oil, stir well, turn off the heat, cover the pan and let everything sit for a few minutes before serving.\n\nYou can also serve the shrimp and vegetables on top of the cooked rice instead of mixing in the rice at the end of cooking the shrimp and vegetables.\n\nI like to keep frozen raw shrimp in the freezer. This recipe works well when I have vegetables need to use up. This recipe also works well when I have left over cooked rice to use up.\n\nIf I have leftovers for this recipe I like to make another meal by heating lightly in the microwave and adding some sour cream before eating. The sour cream adds a great flavor and makes leftovers taste different.",
+            "num_served": 2,
+            "id": 42,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["brown onions", ["1 ", "onion"], 1.0, "onion"],
+            ["sweet red pepper (bell pepper)", ["1 ", "cup strips"], 1.0, "cup strips"],
+            ["olive oil", ["1/3", "cup"], 20.0, "tbsp"],
+            ["fresh garlic (peeled and chopped)", ["5", "clove"], 0.2, "cup"],
+            ["fresh basil (chopped)", ["5 ", "(2) tbsp chopped"], 5.0, "(2) tbsp chopped"],
+            ["salt", ["1", "teaspoons"], 0.01, "cup"],
+            ["black pepper", ["1/2", "teaspoons"], 0.1, "tbsp"],
+            ["red pepper flakes", ["1", "teaspoons"], 0.2, "tbsp"],
+            ["canned chopped tomatoes", ["4", "cup"], 1.8, "cup"],
+            ["water", ["12 ", "fl oz"], 12.0, "fl oz"],
+            ["dry pasta (uncooked spaghetti)", ["2 1/5", "cup"], 2.2, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Marinara Sauce",
+            "directions": "<p>Note that you can substitute fresh chopped tomatoes for all or some of the canned tomatoes.</p><p>Put 1/3 of the olive oil in a large heavy pan and start to heat to low temperature while chopping the onion and red bell peppers in a food processor. Chop either coarsely of finely depending on how smooth you want your Marinara Sauce.</p><p>Fry the onion and red bell peppers over medium-high heat for about 10 minutes, stirring often. While you are doing this peel the garlic and chop it finely. Lower the heat and add the garlic and continue stirring frequently for about 5 minutes.  While you are stirring open the canned tomatos (or sauce with diced tomatoes - your choice). With medium heat, add the tomato sauce and another 1/3 of the olive oil  and stir often to mix all the ingredients. After about 10 minutes, add half the water, stir well, reduce the heat and cover. I cook the sauce under very low heat for about 3 hours but you can reduce the cooking time if you need to. I set an alarm to go off every 20 minutes to remind me to stir the sauce and add a little bit of water if the sauce is very thick. About 5 minutes before turning off the heat I add the final 1/3 of the olive oil to the sauce. I usually let the sauce sit for 15 or 20 minutes after it is done before serving over pasta.</p><p>Cook your favorite pasta as per the directions on the package and serve with sauce.</p><p>Pro tip: this recipe is a lot of work so I usually make a very large quantity of Marinara Sauce and freeze some of it for future use.</p><p>This Marinara sauce is useful as a base for other recipes and is delicious to eat as-is.</p>",
+            "num_served": 6,
+            "id": 41,
+            "num_ratings": 1
+        },
+        "pictures":
+            [
+                ["marinara1", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peppers and onion"],
+                ["marinara2", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chop before<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;food processing"],
+                ["marinara3", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peppers and onion<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ready for cooking"],
+                ["marinara4", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peppers and onion<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fried in oil"],
+                ["marinara5", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinly slice/chop garlic"],
+                ["marinara6", "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ready to eat with pasta"]
+            ]
+
+    },
+    {
+        "items": [
+            ["sweet potatoes", ["4 ", "medium ( 2"], 4.0, "medium ( 2"],
+            ["Olive oil", ["6 ", "tablespoons"], 6.0, "tbsp"],
+            ["salt (to taste)", ["1/3", "teaspoons"], 0.007, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Sweet Potato French Fries",
+            "directions": "\u003Cp\u003EThese fries are tasty and also very healthy since they are baked and not fried. Turn oven on and set to 400 degrees. Peal the sweet potatoes and cut them into the shape of french fries. Poor most of the olive oil onto a cookie sheet and roll the raw sweet potato french fries in the oil to cover them. Then spread out the french fries and dribble the remaining olive oil over the fries. Don't worry if the oven is fully pre-heated. The oven can continue to heat up while the fries are cooking. It will take about 30 minutes to cook the fries if you cut them sweet potato into thin pieces, and a little longer if the fries are thicker.\u003C/p\u003E ",
+            "num_served": 4,
+            "id": 43,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["chicken breast (raw, full, from a frying chicken)", ["1 ", "unit ( yield from 1 lb ready-to-cook chicken)"], 1.0, "unit ( yield from 1 lb ready-to-cook chicken)"],
+            ["Sriracha Hot Chili Sauce", ["4 ", "tsp or 1 packet"], 4.0, "tsp or 1 packet"],
+            ["honey", ["1/3", "cup"], 0.3, "cup"],
+            ["soy sauce", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["Coconut oil", ["2 ", "tablespoons"], 2.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Sweet and Spicy Chicken Breasts",
+            "directions": "\u003Cp\u003EDepending on your tastes and what you already have in your kitchen, you can vary the flavor of this recipe a lot by using either Sriracha Hot Chili Sauce (substitute a smaller amount of Tabasco sauce if you are out of Sriracha) or prepared mustard. (Prepared mustard can be Dijon or plain yellow mustard.) My Favorite is mixing in a little of both Sriracha and Dijon mustard. Mix the Sriracha, mustard, honey, and soy sauce on a paper plate and coat the boanless and skinless chicken with this mixture. Heat the Coconut oil to medium high heat in a no-stick pan and add the chicken. Cook the chicken for about 7 or 8 minutes per side. Cut into the fattest piece of chicken to make sure it is done. Cook longer if necessary. Since this dish is flavorful and spicy, but also fairly high in fat and sugar, I like to pair this recipe with simple steamed vegetables. \u003Cb\u003EAs an appetizer:\u003C/b\u003E you can use chicken wings and make an appetizer. You will need to increase the amount of coconut oil so they are crisp.\u003C/p\u003E",
+            "num_served": 2,
+            "id": 46,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Small fillet of Salmon, thawed and skin removed", ["2 ", "(0.5) fillet"], 2.0, "(0.5) fillet"],
+            ["Bread crumbs (Italian, plain, or seasoned)", ["1/4", "cup"], 0.25, "cup"],
+            ["Dijon Mustard (Yellow mustard is OK also)", ["3 ", "tsp or 1 packet"], 3.0, "tsp or 1 packet"],
+            ["Coconut Oil", ["3 ", "tablespoons"], 3.0, "tbsp"],
+            ["Salt and Pepper to taste", ["1/2", "teaspoons"], 0.01, "cup"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Fried Salmon with Dijon Mustard Breading",
+            "directions": "\u003Cp\u003EMix bread crumbs and mustard together on a small paper plate and coat the salmon fillets with this mixture. Heat coconut oil to medium high heat (preferably in a non-stick pan). Coconut oil is excellant to fry with as its nutritional value is not much affected by heat. place salmon fillets in the hot oil and cook for about 4 minutes. Then turn heat down to medium and turn over the fish. The top side of the fish will appear more crispy because that side of the fish will have absorbed most of the coconut oil and was cooked under higher heat. Serve with the crunchy side of the fish up. \u003Ci\u003ENote: you can substitute salmon steaks for fillets.\u003C/i\u003E\u003C/p\u003E",
+            "num_served": 2,
+            "id": 45,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Shiitake mushrooms", ["1/2", "cup pieces"], 0.5, "cup pieces"],
+            ["Kale (or substitute green lettuce)", ["2 ", "cup chopped"], 2.0, "cup chopped"],
+            ["tofu (soft)", ["2/3", "cup ( 1/2"], 0.6, "cup ( 1/2"],
+            ["cashew (nuts)", ["1/3", "cup halves and whole"], 0.3, "cup halves and whole"],
+            ["Sesame Oil", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["Soy sauce", ["1 ", "tablespoons"], 1.0, "tbsp"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Oriental Kale and Mushroom Salad",
+            "directions": "\u003Cp\u003EYou can substitute chopped green lettuce for kale. If you are using fresh shiitake mushrooms then wash them and dry them. If you are using dried shiitake mushrooms then soak them in just enough water to cover them for about a half hour until they are soft. Mix all the ingredients and serve.\u003C/p\u003E",
+            "num_served": 4,
+            "id": 47,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["brown rice", ["3/4", "cup"], 0.75, "cup"],
+            ["hoison sauce", ["1 ", "tablespoons"], 1.0, "tbsp"],
+            ["soy sauce", ["1 1/2", "teaspoons"], 0.5, "tbsp"],
+            ["canola oil", ["1 1/2", "teaspoons"], 0.5, "tbsp"],
+            ["sesame oil", ["1 1/2", "teaspoons"], 0.5, "tbsp"],
+            ["raw shrimp", ["8 ", "medium"], 8.0, "medium"],
+            ["egg", ["1 ", "large"], 1.0, "large"],
+            ["fresh ginger", ["4 ", "tsp"], 4.0, "tsp"],
+            ["frozen peas", ["1 ", "cup"], 1.0, "cup"],
+            ["carrots (raw and finely chopped)", ["3/4", "cup chopped"], 0.75, "cup chopped"],
+            ["brown onions (finely chopped)", ["1/4", "cup chopped"], 0.25, "cup chopped"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Simple Shrimp Fried Rice",
+            "directions": "\u003Cp\u003EThis tasty and delicious recipe has two sources of protein: shrimp and egg. I vary the ratio of shrimp and egg, depending on what I feel like. You can leave out the shrimp and double the number of eggs also. The brown rice takes a while to cook so start that in your rice cooker (or in a tightly covered pan on the stove) cooking as per the package directions. Optional: when done put the rice in a large bowl to cool off. After the rice is cooked: Put about half the sesame oil in a non-stick pan, heat, beat the eggs and fry. Set aside on a plate for later. Use the rest of the sesame oil to fry the shrimp. When they are done, put them on the plate with the cooked egg. Hopefully while frying the eggs and shrimp you have already removed the skin and chopped the onion and ginger, and finely chopped the carrots - if not do that now. Add canola oil to the non-stick pan and cook the finely sliced or chopped up ginger and carrots for two minutes - then add the onions and frozen peas and continue frying for a two minutes. Add the rice, and fry everything in the pan for another minute then add the already cooked egg and shrimp and keep frying for another minute. Then turn off the heat. Mix in the hoison and soy sauces and stir well.\u003Cp\u003E\u003Cp\u003EServe immediately.\u003C/p\u003E",
+            "num_served": 2,
+            "id": 49,
+            "num_ratings": 1
+        }
+    },
+    {
+        "items": [
+            ["Olive oil", ["1 1/2", "tablespoons"], 1.5, "tbsp"],
+            ["Butter", ["1 ", "teaspoons"], 0.02, "cup"],
+            ["Green onions (or yellow onions) chopped", ["1/10", "cup chopped"], 0.1, "cup chopped"],
+            ["fresh garlic (peeled and sliced)", ["3 ", "teaspoons"], 0.06, "cup"],
+            ["white wine", ["3 ", "fl oz"], 3.0, "fl oz"],
+            ["parsley (chopped)", ["1 2/3", "tablespoons"], 0.1, "cup"],
+            ["mushrooms (sliced)", ["1/5", "cup pieces or slices"], 0.2, "cup pieces or slices"],
+            ["dry pasta (Linguine, cooked. can substitute other types of pasta)", ["1 1/2", "cup"], 1.5, "cup"],
+            ["canned clams (with juice. clams can be whole or diced)", ["1 ", "cup ( with liquid and clams)"], 1.0, "cup ( with liquid and clams)"]
+        ],
+        "recipe": {
+            "rating": 2.0,
+            "name": "Linguine with Clam Sauce",
+            "directions": "This is a fast recipe to make, but you will be cooking with two pans at once. Add more or less clams and juice to the recipe depending on your taste for clams. If you don't use many clams then you might have to add a little water to the frying pan while cooking. Start a large pan of salted water to boil. Peel and thinly slice the garlic and chop the onions. Heat olive oil and butter in a frying pan and add the onion and cook for a minute, stirring as needed. Then add the garlic. The water should be boiling so add the Linguine pasta (or, you can substitute other types of pasta). Note: you don't want to fully cook the pasta; when you taste it it should have some slight crunch since we will re-cook it with the sauce. If the recipe for cooking the pasta indicates a 10 minute cooking time, only boil the pasta for about 8 or 9 minutes. Add the white wine, sliced mushrooms, and the clam juice (not the clams, yet!) to the frying pan and simmer for at least 5 minutes. Add the drained pasta, parsley and simmer for a few more minutes. Finally, add the clams and simmer for another 3 or 4 minutes and then immediately serve. The dish is done when the pasta is fully cooked - taste it before serving to check for doneness.\u003Cp\u003EOptional: serve with parmesan cheese\u003C/p\u003E",
+            "num_served": 2,
+            "id": 48,
+            "num_ratings": 1
+        }
+    }
+]
