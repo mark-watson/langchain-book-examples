@@ -1,14 +1,10 @@
 # Setup
 
-TBD
+Follow directions in the book to set up Google app authentication.
 
 # run
 
 ```
-python
->>> import ll
-Your browser has been opened to visit:
-....
->>> ll.test()
-....
+python fetch_txt_files.py
+python index_and_QA.py
 ```
