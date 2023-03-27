@@ -24,5 +24,5 @@ def query(q):
     print(f"\n\nRecipe creation request: {q}\n")
     print(f"{qa.run(q)}\n\n")
 
-query("Create a new recipes using both Broccoli")
-query("Create a new recipes using Beans, Rice, and Chicken")
+query("Create a new recipe using both Broccoli")
+query("Create a recipe using Beans, Rice, and Chicken")
