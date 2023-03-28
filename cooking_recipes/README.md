@@ -2,7 +2,7 @@
 
 See the chapter in my book for information.
 
-So far, this directory contains experiments.
+So far, this directory contain an initial experiment indexing my cookingspace.com recipe data and using LangChain and a prediction model to generate new recipes.
 
 ## Recipe Copyrights
 
