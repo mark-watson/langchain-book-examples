@@ -10,7 +10,8 @@ from llama_index import TrafilaturaWebReader
 def query_website(url_list, *questions):
     documents = TrafilaturaWebReader().load_data(url_list)
     print("documents:"); pprint(documents)
-    index = GPTListIndex(documents)
+    # index = GPTListIndex(documents) # llama_index < 0.5
+    index = GPTListIndex.from_documents(documents)
     for question in questions:
         print(f"\n== QUESTION: {question}\n")
         response = index.query(question)

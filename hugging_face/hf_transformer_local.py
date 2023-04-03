@@ -45,8 +45,14 @@ llm_predictor = LLMPredictor(llm=CustomLLM())
 
 # Load the your data
 documents = SimpleDirectoryReader('../data_small').load_data()
+# llama_index < 0.5:
 index = GPTListIndex(documents, llm_predictor=llm_predictor,
                      prompt_helper=prompt_helper)
+
+# llama_index >= 0.5: (not yet working)
+#index = GPTListIndex(llm_predictor=llm_predictor,
+#                     prompt_helper=prompt_helper)
+#index = index.from_documents(documents)
 
 time2 = time.time()
 print(f"Time to load model from disk: {time2 - time1} seconds.")

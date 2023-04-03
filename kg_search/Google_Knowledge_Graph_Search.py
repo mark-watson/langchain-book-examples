@@ -9,7 +9,10 @@ def kg_search(entity_name, *questions):
     context_text = Google_KG_helper.get_context_text(entity_name)
     print(f"Context text: {context_text}")
     doc = Document(context_text)
-    index = GPTListIndex([doc])
+    # llama_index < 0.5:
+    #index = GPTListIndex([doc])
+    # llama_index >= 0.5:
+    index = GPTListIndex.from_documents([doc])
     for question in questions:
         response = index.query(question)
         ret += f"QUESTION:  {question}\nRESPONSE: {response}\n"
