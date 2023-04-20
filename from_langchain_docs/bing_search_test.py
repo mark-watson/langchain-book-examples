@@ -2,22 +2,22 @@
 #  https://langchain.readthedocs.io/en/latest/ecosystem/google_serper.html
 # with slight modifications.
 
-from langchain.utilities import GoogleSerperAPIWrapper
+from langchain.utilities import BingSearchAPIWrapper
 from langchain.llms.openai import OpenAI
 from langchain.agents import initialize_agent, Tool
 
 from langchain.agents import load_tools
-tools = load_tools(["google-serper"])
+tools = load_tools(["bing-search"])
 
 import os
 
 llm = OpenAI(temperature=0)
-search = GoogleSerperAPIWrapper()
+search = BingSearchAPIWrapper()
 tools = [
     Tool(
         name="Intermediate Answer",
         func=search.run,
-        description="Searches Google for an intermediate answer.",
+        description="Searches Bing for an intermediate answer.",
     )
 ]
 
