@@ -8,3 +8,5 @@ See book for:
 
 ## Examples not (yet) in my book
 
+    chroma_persist_index.py
+    chroma_use_disk_index_for_query.py
