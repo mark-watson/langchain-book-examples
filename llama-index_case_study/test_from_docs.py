@@ -1,17 +1,22 @@
-# from example athttps://github.com/jerryjliu/gpt_index
-
 # make sure you set the following environment variable is set:
 #   OPENAI_API_KEY
 
-from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
+from llama_index import StorageContext, load_index_from_storage
+
 documents = SimpleDirectoryReader('../data').load_data()
 # index = GPTListIndex(documents) # llama_index < 0.5
-index = GPTSimpleVectorIndex.from_documents(documents)
+index = GPTVectorStoreIndex.from_documents(documents)
+engine = index.as_query_engine()
+print(engine.query("what are key economic indicators?"))
 
 # save to disk
-index.save_to_disk('index.json')
+index.storage_context.persist(persist_dir='./cache')
+
 # load from disk
-index = GPTSimpleVectorIndex.load_from_disk('index.json')
+storage_context = StorageContext.from_defaults(persist_dir='./cache')
+index = load_index_from_storage(storage_context)
+engine = index.as_query_engine()
 
 # search for a document
-print(index.query("effect of body chemistry on exercise?"))
+print(engine.query("effect of body chemistry on exercise?"))

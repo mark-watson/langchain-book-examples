@@ -12,13 +12,13 @@ def query_website(url_list, *questions):
     print("documents:"); pprint(documents)
     # index = GPTListIndex(documents) # llama_index < 0.5
     index = GPTListIndex.from_documents(documents)
+    engine = index.as_query_engine()
     for question in questions:
         print(f"\n== QUESTION: {question}\n")
-        response = index.query(question)
+        response = engine.query(question)
         print(f"== RESPONSE: {response}")
 
 if __name__ == "__main__":
   url_list = ["https://markwatson.com"]
-  query_website(url_list, "What programming languages does Mark use?",
-                          "How many books has Mark written?",
-                          "What musical instruments does Mark play?")
+  query_website(url_list, "How many patents does Mark have?",
+                          "How many books has Mark written?")
