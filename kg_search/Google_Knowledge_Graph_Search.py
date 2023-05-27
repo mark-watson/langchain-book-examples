@@ -14,7 +14,7 @@ def kg_search(entity_name, *questions):
     # llama_index >= 0.5:
     index = GPTListIndex.from_documents([doc])
     for question in questions:
-        response = index.query(question)
+        response = index.as_query_engine().query(question)
         ret += f"QUESTION:  {question}\nRESPONSE: {response}\n"
     return ret
 
