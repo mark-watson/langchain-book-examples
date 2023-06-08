@@ -2,7 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from rdflib import Graph
 import pandas as pd
 
-def get_possible_eitity_uris_from_wikidata(entity_name):
+def get_possible_entity_uris_from_wikidata(entity_name):
    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
    sparql.setQuery("""
       SELECT ?entity ?entityLabel WHERE {
@@ -36,7 +36,7 @@ def wikidata_query_to_df(entity_uri):
    return prompt_text
 
 def generate_prompt_text(entity_name):
-   entity_uris = get_possible_eitity_uris_from_wikidata(entity_name)
+   entity_uris = get_possible_entity_uris_from_wikidata(entity_name)
    prompt_text = ""
    for entity_uri in entity_uris:
        p = wikidata_query_to_df(entity_uri)

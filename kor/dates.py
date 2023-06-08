@@ -1,11 +1,17 @@
 " From documentation: https://eyurtsev.github.io/kor/prompt_examples.html"
 
-from kor.extraction import Extractor
+from kor.extraction import create_extraction_chain
 from kor.nodes import Object, Text, Number
-from kor.llms import OpenAIChatCompletion, OpenAICompletion
+from langchain.chat_models import ChatOpenAI
 
-llm = OpenAIChatCompletion(model="gpt-3.5-turbo")
-model = Extractor(llm)
+llm = ChatOpenAI(
+    model_name="gpt-3.5-turbo",
+    temperature=0,
+    max_tokens=2000,
+    frequency_penalty=0,
+    presence_penalty=0,
+    top_p=1.0,
+)
 
 schema = Text(
     id="date",
@@ -17,7 +23,10 @@ schema = Text(
                "Let's meet up on January 12, 2023 and discuss our yearly budget")],
 )
 
-model(
+chain = create_extraction_chain(llm, schema)
+
+
+chain(
     (
         "We agreed to meet on January 12, 2023. I was born on January 12, 1999. We will have coffee on January 12, 2023. "
         " Sally's hire date is May 21, 2022. Here job performance has been good. "
@@ -26,9 +35,9 @@ model(
     schema,
 )
 
-print(model)
+print(chain)
 
-prompt = model.prompt_generator.format_as_string("Does September 12, 2023 work for you?", schema)
+prompt = chain.prompt_generator.format_as_string("Does September 12, 2023 work for you?", schema)
 
 print("prompt:", prompt)
 
@@ -45,7 +54,7 @@ completion = openai.ChatCompletion.create(
 
 print(completion)
 
-prompt = model.prompt_generator.format_as_string("Does May 1 work for you?", schema)
+prompt = chain.prompt_generator.format_as_string("Does May 1 work for you?", schema)
 
 print("prompt:", prompt)
 
