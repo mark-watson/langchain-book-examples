@@ -1,2 +1,3 @@
+numpy==1.21
 llama-index==0.4.33
 
