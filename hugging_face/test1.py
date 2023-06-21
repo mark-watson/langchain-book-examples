@@ -1,3 +1,5 @@
+# pip install xformers
+
 from llama_index import ListIndex, SimpleDirectoryReader
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from llama_index import LangchainEmbedding, ServiceContext
