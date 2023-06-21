@@ -39,10 +39,12 @@ llm_predictor = LLMPredictor(llm=CustomLLM())
 # load in HF embedding model from langchain
 embed_model = LangchainEmbedding(HuggingFaceEmbeddings())
 service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, embed_model=embed_model)
+print("Done creating service context")
 
 # build index
 documents = SimpleDirectoryReader('../data').load_data()
 new_index = ListIndex.from_documents(documents, service_context=service_context)
+print("Done building index")
 
 # query with embed_model specified
 query_engine = new_index.as_query_engine(
@@ -52,9 +54,13 @@ query_engine = new_index.as_query_engine(
     verbose=True, 
     service_context=service_context
 )
-response = query_engine.query("what is the definition of Chemistry?")
-print(response)
-response = query_engine.query("what are the benefits of sports?")
-print(response)
-response = query_engine.query("what are the two schools of economics?")
-print(response)
+print("Done creating query engine")
+
+def query(query_string):
+    response = query_engine.query(query_string)
+    print(response)
+    return response
+
+query("what is the definition of Chemistry?")
+query("what are the benefits of sports?")
+query("why study economics?")
