@@ -5,13 +5,13 @@ import time
 import torch
 from langchain.llms.base import LLM
 from llama_index import SimpleDirectoryReader, LangchainEmbedding
-from llama_index import GPTListIndex, PromptHelper
+from llama_index import ListIndex, PromptHelper
 from llama_index import LLMPredictor
 from transformers import pipeline
 
 max_input_size = 512
 num_output = 64
-max_chunk_overlap = 10
+max_chunk_overlap = 0 # 10
 prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
 
 class CustomLLM(LLM):
@@ -46,17 +46,20 @@ llm_predictor = LLMPredictor(llm=CustomLLM())
 # Load the your data
 documents = SimpleDirectoryReader('../data_small').load_data()
 # llama_index < 0.5:
-index = GPTListIndex(documents, llm_predictor=llm_predictor,
-                     prompt_helper=prompt_helper)
+#index = GPTListIndex(documents, llm_predictor=llm_predictor,
+#                     prompt_helper=prompt_helper)
 
 # llama_index >= 0.5: (not yet working)
-#index = GPTListIndex(llm_predictor=llm_predictor,
-#                     prompt_helper=prompt_helper)
+index = ListIndex.from_documents(documents=documents, 
+                                 llm_predictor=llm_predictor,
+                                 prompt_helper=prompt_helper)
 #index = index.from_documents(documents)
+index = index.as_query_engine(llm_predictor=llm_predictor)
 
 time2 = time.time()
 print(f"Time to load model from disk: {time2 - time1} seconds.")
 
+print(dir(index))
 # Query and print response
 response = index.query("What is the definition of sport?")
 print(response)
