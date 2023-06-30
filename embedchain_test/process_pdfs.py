@@ -6,7 +6,7 @@ import os
 
 test_chat = App()
 
-my_books_dir = "/Users/markwatson/Library/Mobile Documents/com~apple~CloudDocs/Documents/my book PDFs/"
+my_books_dir = "/Users/mark/data/"
 
 for filename in os.listdir(my_books_dir):
     if filename.endswith('.pdf'):

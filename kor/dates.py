@@ -1,4 +1,4 @@
-" From documentation: https://eyurtsev.github.io/kor/prompt_examples.html"
+" From documentation: https://eyurtsev.github.io/kor/"
 
 from kor.extraction import create_extraction_chain
 from kor.nodes import Object, Text, Number
