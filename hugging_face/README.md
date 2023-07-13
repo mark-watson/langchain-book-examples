@@ -1,7 +1,7 @@
 # Using local models
 
-Note: the hf_transformer example cuurently requires llama_index < 0.5:
+pip install -U torch langchain transformers llama_index
 
-     llama-index==0.4.33
+For CPU only, this speeds things up:
 
-works.
+pip install xformers

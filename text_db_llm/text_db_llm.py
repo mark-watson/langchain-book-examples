@@ -16,4 +16,6 @@ else:
   index.save_to_disk('index.json')
 
 # search for a document
+
+
 print(index.query("effect of body chemistry on exercise?"))
