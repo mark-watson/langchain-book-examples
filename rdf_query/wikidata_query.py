@@ -6,7 +6,8 @@ def wd_query(question, *entity_names):
     for entity_name in entity_names:
         prompt_texts += [generate_prompt_text(entity_name)]
     documents = StringIterableReader().load_data(texts=prompt_texts)
-    index = GPTTreeIndex(documents)
+    index = GPTTreeIndex.from_documents(documents)
+    index = index.as_query_engine(child_branching_fasctor=2)
     return index.query(question)
 
 if __name__ == "__main__":
