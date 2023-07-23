@@ -14,3 +14,5 @@ See book for:
 
     chroma_persist_index.py
     chroma_use_disk_index_for_query.py
+
+Note: I sometines need to ***rm -rf ./tmp** when updating libraries to new versions.
