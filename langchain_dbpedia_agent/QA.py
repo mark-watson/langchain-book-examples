@@ -5,14 +5,10 @@
 # Original Colab notebook:
 # https://colab.research.google.com/drive/1FX-0eizj2vayXsqfSB2ONuJYG8BaYpGO?usp=sharing
 
-from transformers import pipeline
-
 # !pip install import spacy
 # !python -m spacy download en_core_web_sm
 
 import spacy
-
-# spacy.cli.download("en_core_web_sm")
 
 nlp_model = spacy.load("en_core_web_sm")
 
