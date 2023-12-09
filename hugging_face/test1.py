@@ -1,8 +1,11 @@
 # pip install xformers
 
-from llama_index import ListIndex, SimpleDirectoryReader
+from llama_index import ListIndex, SimpleDirectoryReader, set_global_service_context
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-from llama_index import LangchainEmbedding, ServiceContext
+# from llama_index import LangchainEmbedding, ServiceContext
+from langchain.embeddings.huggingface import HuggingFaceEmbeddings
+from llama_index import ServiceContext
+
 from transformers import pipeline
 import time
 import torch
@@ -39,8 +42,9 @@ time1 = time.time()
 llm_predictor = LLMPredictor(llm=CustomLLM())
 
 # load in HF embedding model from langchain
-embed_model = LangchainEmbedding(HuggingFaceEmbeddings())
+embed_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
 service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor, embed_model=embed_model)
+set_global_service_context(service_context)
 print("Done creating service context")
 
 # build index
@@ -49,13 +53,15 @@ new_index = ListIndex.from_documents(documents, service_context=service_context)
 print("Done building index")
 
 # query with embed_model specified
-query_engine = new_index.as_query_engine(
-    #retriever_mode="embedding", 
-    retriever_mode="default",
-    response_mode = "simple_summarize",
-    verbose=True, 
-    service_context=service_context
-)
+#query_engine = new_index.as_query_engine(
+#    #retriever_mode="embedding", 
+#    retriever_mode="default",
+#    response_mode = "simple_summarize",
+#    verbose=True, 
+#    service_context=service_context
+#)
+query_engine = new_index.as_query_engine()
+
 print("Done creating query engine")
 
 def query(query_string):
