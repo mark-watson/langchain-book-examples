@@ -1,5 +1,7 @@
 # Using LLMs to Generate Recipes
 
+Updated 1/8/2024 for langchain 0.1.0
+
 See the chapter in my book for information.
 
 So far, this directory contain an initial experiment indexing my cookingspace.com recipe data and using LangChain and a prediction model to generate new recipes.

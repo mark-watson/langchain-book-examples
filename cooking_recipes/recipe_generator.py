@@ -1,28 +1,49 @@
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.document_loaders import DirectoryLoader
-from langchain import OpenAI, VectorDBQA
+# This example uses code from https://python.langchain.com/docs/get_started
+
+# on macOS: pip install faiss-cpu
+
+from langchain_community.vectorstores import FAISS
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+
+llm = ChatOpenAI()
+
+embeddings = OpenAIEmbeddings()
+
+text_splitter = RecursiveCharacterTextSplitter()
+#documents = text_splitter.split_documents(docs)
+
 
 embeddings = OpenAIEmbeddings()
 
 loader = DirectoryLoader('./text_data/', glob="**/*.txt")
 documents = loader.load()
-text_splitter = CharacterTextSplitter(chunk_size=2500, chunk_overlap=0)
 
-texts = text_splitter.split_documents(documents)
+vector = FAISS.from_documents(documents, embeddings)
 
-docsearch = Chroma.from_documents(texts, embeddings)
+from langchain.chains import create_retrieval_chain
 
-qa = VectorDBQA.from_chain_type(llm=OpenAI(temperature=0,
-                                model_name="text-davinci-002"),
-                                chain_type="stuff",
-                                vectorstore=docsearch)
-#qa.save_to_disk('index.json')
+from langchain.chains.combine_documents import create_stuff_documents_chain
 
-def query(q):
-    print(f"\n\nRecipe creation request: {q}\n")
-    print(f"{qa.run(q)}\n\n")
+prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:
 
-query("Create a new recipe using both Broccoli")
-query("Create a recipe using Beans, Rice, and Chicken")
+<context>
+{context}
+</context>
+
+Question: {input}""")
+
+document_chain = create_stuff_documents_chain(llm, prompt)
+
+
+retriever = vector.as_retriever()
+retrieval_chain = create_retrieval_chain(retriever, document_chain)
+
+response = retrieval_chain.invoke({"input": "Create a new recipe using both Broccoli"})
+print(response["answer"])
+
+response = retrieval_chain.invoke({"input": "Create a recipe using Beans, Rice, and Chicken"})
+print(response["answer"])
+
