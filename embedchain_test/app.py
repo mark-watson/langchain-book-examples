@@ -10,6 +10,7 @@ def test(q):
     print(q)
     print(test_chat.query(q), "\n")
 
+#test("What is the Blackboard Metaphor?")
 test("How can I iterate over a list in Haskell?")
 test("How can I edit my Common Lisp files?")
 test("How can I scrape a website using Common Lisp?")
