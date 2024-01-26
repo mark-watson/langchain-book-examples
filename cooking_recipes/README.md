@@ -1,6 +1,6 @@
 # Using LLMs to Generate Recipes
 
-Updated 1/8/2024 for langchain 0.1.0
+Updated 1/26/2024 for langchain-0.1.4 and using the new OpenAI embedding models
 
 See the chapter in my book for information.
 

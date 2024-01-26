@@ -7,10 +7,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
+from langchain_community.document_loaders import DirectoryLoader
 
 llm = ChatOpenAI()
 
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
 text_splitter = RecursiveCharacterTextSplitter()
 #documents = text_splitter.split_documents(docs)
