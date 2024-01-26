@@ -4,7 +4,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import DirectoryLoader
 from langchain import OpenAI, VectorDBQA
 
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
 loader = DirectoryLoader('../data/', glob="**/*.txt")
 documents = loader.load()

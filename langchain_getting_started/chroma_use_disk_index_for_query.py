@@ -1,7 +1,7 @@
 from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
 
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 vectorstore = Chroma(collection_name="langchain_store",
                      embedding_function=embeddings,
                      persist_directory="./tmp")
