@@ -1,5 +1,5 @@
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 llm = OpenAI(temperature=0.9)
 
 def get_country_information(country_name):

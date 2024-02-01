@@ -2,7 +2,8 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import DirectoryLoader
-from langchain import OpenAI, VectorDBQA
+from langchain import VectorDBQA
+from langchain_openai import OpenAI
 
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
