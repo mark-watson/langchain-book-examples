@@ -6,7 +6,7 @@ import os
 
 test_chat = App()
 
-my_books_dir = "/Users/markw/data/"
+my_books_dir = "./data/"
 
 for filename in os.listdir(my_books_dir):
     if filename.endswith('.pdf'):
