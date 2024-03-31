@@ -2,7 +2,7 @@
 
 Requirements:
 
-    pip install langchain chromadb unstructured pdf2image pytesseract
+    pip install langchain langchain-openai faiss-cpu chromadb unstructured pdf2image pytesseract docx
 
 See book for:
 
