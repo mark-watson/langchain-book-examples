@@ -1,17 +1,19 @@
-# Derived from the example at:
-# https://github.com/jerryjliu/gpt_index/blob/main/examples/data_connectors/WebPageDemo.ipynb
+# Derived from examples in llama_index documentation
 
 # pip install llama-index html2text trafilatura
 
 from pprint import pprint
-from llama_index import GPTListIndex, Document
-from llama_index import TrafilaturaWebReader
+from llama_index.core import Document
+import trafilatura
 
-def query_website(url_list, *questions):
-    documents = TrafilaturaWebReader().load_data(url_list)
-    print("documents:"); pprint(documents)
-    # index = GPTListIndex(documents) # llama_index < 0.5
-    index = GPTListIndex.from_documents(documents)
+from llama_index.core import VectorStoreIndex
+
+def query_website(url, *questions):
+    downloaded = trafilatura.fetch_url(url)
+    text = trafilatura.extract(downloaded)
+    #print(text)
+    list_of_documents = [Document(text=text)]
+    index = VectorStoreIndex.from_documents(list_of_documents)   #.from_texts([text])
     engine = index.as_query_engine()
     for question in questions:
         print(f"\n== QUESTION: {question}\n")
@@ -19,6 +21,6 @@ def query_website(url_list, *questions):
         print(f"== RESPONSE: {response}")
 
 if __name__ == "__main__":
-  url_list = ["https://markwatson.com"]
-  query_website(url_list, "How many patents does Mark have?",
-                          "How many books has Mark written?")
+  url = "https://markwatson.com"
+  query_website(url, "What instruments does Mark play?",
+                     "How many books has Mark written?")

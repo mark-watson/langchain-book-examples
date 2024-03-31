@@ -1,3 +1,3 @@
 # LlamaIndex Examples
 
-Note: updated for version: llama-index-0.6.4
+The old example test_from_docs.py has been deprecated and removed
