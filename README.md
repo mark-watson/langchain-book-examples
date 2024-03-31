@@ -6,6 +6,8 @@ This book can be purchased or read free online at [https://leanpub.com/langchain
 
 I would like to thank readers who have purchased this book! I very much appreciate your support.
 
-## December 26, 2023: I am rewriitng this book
+## March 31, 2024: I am updating this book
 
-I will be moving old examples that will not be in future versions of the book to the directory **OLD_EXAMPLES**.
+This is a work in progress.
+
+I a previous update from 2023, I moved some old examples that are no longer used in this book to the directory **OLD_EXAMPLES**.
