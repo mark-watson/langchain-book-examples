@@ -1,6 +1,6 @@
 # requires "ollama serve" to be running in another terminal
 
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 from langchain.embeddings.ollama import OllamaEmbeddings
 from langchain.chains import RetrievalQA
 
