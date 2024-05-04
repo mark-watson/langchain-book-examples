@@ -28,7 +28,7 @@ reranker = SentenceTransformerRerank(
 
 # Set up the query engine with the reranker as a postprocessor
 query_engine = index.as_query_engine(
-    similarity_top_k=10,  # Adjust based on how many results to retrieve before reranking
+    similarity_top_k=10,  # Set for how many results to retrieve before reranking
     node_postprocessors=[reranker]  # Add the reranker to the postprocessing steps
 )
 
