@@ -23,4 +23,5 @@ def query_website(url, *questions):
 if __name__ == "__main__":
   url = "https://markwatson.com"
   query_website(url, "What instruments does Mark play?",
-                     "How many books has Mark written?")
+                     "How many books has Mark written?",
+                     "list company names beginning with the letter 'C'")
