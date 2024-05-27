@@ -1,16 +1,21 @@
 # requires "ollama serve" to be running in another terminal
 
-from langchain_community.llms import Ollama
-from langchain.embeddings.ollama import OllamaEmbeddings
+# pip install python-docx
+
+
+from langchain_community.llms.ollama import Ollama
+from langchain_community.embeddings import OllamaEmbeddings
 from langchain.chains import RetrievalQA
 
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders.directory import DirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader
+
+model = "mistral:v0.3"
 
 # Create index (can be reused):
 
-loader = DirectoryLoader('../data', glob='**/*.txt')
+loader = DirectoryLoader('../data/', glob="**/*.txt", show_progress=True)
 data = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(
@@ -21,7 +26,7 @@ persist_directory = 'cache'
 
 vectorstore = Chroma.from_documents(
     documents = all_splits,
-    embedding = OllamaEmbeddings(model="mistral:instruct"),
+    embedding = OllamaEmbeddings(model=model),
     persist_directory=persist_directory)
 
 vectorstore.persist()
@@ -31,11 +36,11 @@ vectorstore.persist()
 persist_directory = 'cache'
 
 vectorstore = Chroma(persist_directory=persist_directory,
-                     embedding_function=OllamaEmbeddings(model="mistral:instruct")
+                     embedding_function=OllamaEmbeddings(model=model)
                     )
 
 llm = Ollama(base_url = "http://localhost:11434",
-             model = "mistral:instruct",
+             model = model,
              verbose = False,
             )
 
