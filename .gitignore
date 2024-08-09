@@ -8,3 +8,4 @@ client_secrets.json
 cl*.json
 index.json
 *.log
+cache
