@@ -3,7 +3,7 @@
 from langchain_community.llms.ollama import Ollama
 
 llm = Ollama(
-    model="mistral:v0.3",
+    model="mistral-nemo:latest",
     verbose=False,
 )
 
