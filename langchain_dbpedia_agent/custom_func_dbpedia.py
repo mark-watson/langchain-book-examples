@@ -42,7 +42,7 @@ from langchain.agents import AgentType
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent
 
-llm = ChatOpenAI(model="gpt-3.5-turbo-0613", temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 tools = [GetContextTextFromDbPediaTool()]
 

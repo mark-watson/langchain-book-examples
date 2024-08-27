@@ -10,7 +10,12 @@
 
 import spacy
 
-nlp_model = spacy.load("en_core_web_sm")
+try:
+    nlp_model = spacy.load("en_core_web_sm")
+except Exception as e:
+    print(f"Fixing error: {e}")
+    spacy.cli.download("en_core_web_sm")
+    nlp_model = spacy.load("en_core_web_sm")
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
