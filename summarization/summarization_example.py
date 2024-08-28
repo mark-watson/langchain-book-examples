@@ -16,7 +16,7 @@ prompt = prompt_template.replace("input_text", input_text)
 
 # Use the OpenAI completion API to generate a response with GPT-4
 completion = client.chat.completions.create(
-    model="gpt-4",
+    model="gpt-4o-mini",
     messages=[
         {
             "role": "user",
