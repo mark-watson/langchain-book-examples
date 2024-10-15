@@ -1,0 +1,4 @@
+langchain
+duckduckgo_search
+langchain-community
+langchain-openai
