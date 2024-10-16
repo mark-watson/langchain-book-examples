@@ -1,0 +1,4 @@
+langchain==0.3.3
+langchain_community==0.3.2
+langchain_experimental==0.3.3
+openai==1.51.2
