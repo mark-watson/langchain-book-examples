@@ -6,8 +6,9 @@ This book can be purchased or read free online at [https://leanpub.com/langchain
 
 I would like to thank readers who have purchased this book! I very much appreciate your support.
 
-## March 31, 2024: I am updating this book
+## Older, non-supported, book chapters and code for these chapters now in directory CHAPTERS_and_CODE_no_longer_in-book
 
-This is a work in progress.
+### Starting in October 2024 I am removing older material from my book and archiving it. See the following index for older material:
 
-I a previous update from 2023, I moved some old examples that are no longer used in this book to the directory **OLD_EXAMPLES**.
+[CHAPTERS_and_CODE_no_longer_in-book/README.md](CHAPTERS_and_CODE_no_longer_in-book/README.md)
+
