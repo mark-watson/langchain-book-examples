@@ -1,14 +1,16 @@
-# Example code for my book "LangChain Project Lab Book: Hooking Large Language Models Up to the Real World"
+# Example code for the May 2025 (OLDER) edition my book "LangChain Project Lab Book: Hooking Large Language Models Up to the Real World"
 
-You can purchase this book on LeanPub and get free updates as new versions are released.
+The May 2025 edition is now in this repository in the file **langchain.pdf**.
 
-This book can be purchased or read free online at [https://leanpub.com/langchain](https://leanpub.com/langchain).
+# New second Edition to be release August 2026 covering only the developer open source parts of LangChain and Llama-Index
 
-I would like to thank readers who have purchased this book! I very much appreciate your support.
+The new source code examples will be in the same repo that I use for the book manuscript:
 
-## Older, non-supported, book chapters and code for these chapters now in directory CHAPTERS_and_CODE_no_longer_in-book
+[https://github.com/mark-watson/LangChain-book](https://github.com/mark-watson/LangChain-book)
 
-### Starting in October 2024 I am removing older material from my book and archiving it. See the following index for older material:
+This repository will be made public when the second edition of the book is released.
 
-[CHAPTERS_and_CODE_no_longer_in-book/README.md](CHAPTERS_and_CODE_no_longer_in-book/README.md)
+## Purchasers of the first edition automatically get the second edition free
+
+An email will be sent to book purchasers.
 
